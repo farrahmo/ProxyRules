@@ -1,0 +1,14 @@
+# NAME: iCopy 分流规则
+# DESCRIPTION: iCopy
+# UPDATED: 2026-08-11
+
+# iCopy / Better365
+DOMAIN-SUFFIX,better365.cn
+
+# iCloud
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud-content.com
+
+# Apple CloudKit
+DOMAIN-SUFFIX,cloudkit.apple.com
+DOMAIN-SUFFIX,apple-cloudkit.com
