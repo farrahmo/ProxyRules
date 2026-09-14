@@ -1,0 +1,133 @@
+# NAME: Crypto & CryptoMarkets 分流规则
+# DESCRIPTION: Cryptocurrency & Crypto & CryptoMarkets
+# UPDATED: 2026-08-28
+
+# Binance
+DOMAIN-SUFFIX,binance.com
+DOMAIN-SUFFIX,binance.cloud
+DOMAIN-SUFFIX,binance.me
+DOMAIN-SUFFIX,binance.info
+DOMAIN-SUFFIX,binance.vision
+DOMAIN-SUFFIX,binance.charity
+DOMAIN-SUFFIX,binancecnt.com
+DOMAIN-SUFFIX,binancefuture.com
+DOMAIN-SUFFIX,binanceapi.com
+DOMAIN-SUFFIX,bnbstatic.com
+DOMAIN-SUFFIX,bntrace.com
+DOMAIN-SUFFIX,nftstatic.com
+DOMAIN-SUFFIX,saasexch.com
+DOMAIN-SUFFIX,saasexch.cc
+DOMAIN-SUFFIX,saasexch.co
+DOMAIN-SUFFIX,saasexch.io
+DOMAIN-SUFFIX,saasexch.info
+DOMAIN-SUFFIX,appsflayer.com
+
+# OKX
+DOMAIN-SUFFIX,okx.com
+DOMAIN-SUFFIX,okex.com
+DOMAIN-SUFFIX,oklink.com
+DOMAIN-SUFFIX,okx-dns.com
+DOMAIN-SUFFIX,okx-dns1.com
+DOMAIN-SUFFIX,okx-dns2.com
+DOMAIN-SUFFIX,okx.cab
+DOMAIN-SUFFIX,okx.ac
+DOMAIN-SUFFIX,xlayer.tech
+DOMAIN-SUFFIX,okx.com.cdn.cloudflare.net
+
+# Bybit
+DOMAIN-SUFFIX,bybit.com
+DOMAIN-SUFFIX,bytick.com
+DOMAIN-SUFFIX,bycsi.com
+DOMAIN-SUFFIX,byapis.com
+DOMAIN-SUFFIX,bycbe.com
+DOMAIN-SUFFIX,bymj.io
+DOMAIN-SUFFIX,byabcde.com
+DOMAIN-SUFFIX,byapps.net
+DOMAIN-SUFFIX,byd3c3.com
+DOMAIN-SUFFIX,bybit.biz
+DOMAIN-SUFFIX,bybdc6.com
+DOMAIN-SUFFIX,bybit-global.com
+DOMAIN-SUFFIX,bybit.cloud
+DOMAIN-SUFFIX,bybitglobal.com
+DOMAIN-SUFFIX,bybit.eu
+DOMAIN-SUFFIX,bybit.kz
+DOMAIN-SUFFIX,bybit.nl
+DOMAIN-SUFFIX,bybit-tr.com
+DOMAIN-SUFFIX,bybit.ae
+DOMAIN-SUFFIX,bybitgeorgia.ge
+DOMAIN-SUFFIX,byhkbit.com
+DOMAIN-SUFFIX,bybit.org
+DOMAIN-SUFFIX,bybit.tr
+DOMAIN-SUFFIX,bybit.id
+DOMAIN-SUFFIX,bitverse.zone
+DOMAIN,bybit-exchange.github.io
+DOMAIN,bybit.ada.support
+
+# Kraken
+DOMAIN-SUFFIX,kraken.com
+DOMAIN-SUFFIX,pro.kraken.com
+DOMAIN-SUFFIX,proapp.kraken.com
+DOMAIN-SUFFIX,app.kraken.com
+DOMAIN-SUFFIX,kraken.onl
+
+# Neverless
+DOMAIN-SUFFIX,neverless.com
+
+# Bitget
+DOMAIN-SUFFIX,bitget.com
+DOMAIN-SUFFIX,bitget.site
+DOMAIN-SUFFIX,bitget.io
+DOMAIN-SUFFIX,bgbstatic.com
+DOMAIN-SUFFIX,bgstatic.com
+DOMAIN-SUFFIX,bitgetimg.com
+DOMAIN-SUFFIX,btsgtm.com
+DOMAIN-SUFFIX,bkcode.vip
+DOMAIN-SUFFIX,bitkeep.com
+DOMAIN-SUFFIX,bitkeep.vip
+DOMAIN-SUFFIX,gurenla.com
+DOMAIN-SUFFIX,bitgetapps.com
+
+# SafePal
+DOMAIN-SUFFIX,safepal.com
+DOMAIN-SUFFIX,safepal.io
+DOMAIN-SUFFIX,static.safepal.com
+DOMAIN-SUFFIX,store.safepal.com
+DOMAIN-SUFFIX,ton-bridge.safepal.com
+DOMAIN-SUFFIX,storedapi.safepal.com
+
+# MEXC
+DOMAIN-SUFFIX,mexc.com
+DOMAIN-SUFFIX,mexc.co
+DOMAIN-SUFFIX,mexc.fm
+DOMAIN-SUFFIX,mexc.io
+DOMAIN-SUFFIX,support.mexc.com
+DOMAIN-SUFFIX,blog.mexc.com
+DOMAIN-SUFFIX,m.mexc.com
+DOMAIN-SUFFIX,otc.mexc.com
+DOMAIN-SUFFIX,static.mocortech.com
+DOMAIN-SUFFIX,public.mocortech.com
+DOMAIN-SUFFIX,download.mocortech.com
+DOMAIN-SUFFIX,mexc.link
+DOMAIN-SUFFIX,mexc.cg
+DOMAIN-SUFFIX,mexc.ci
+
+# CoinMarketCap
+DOMAIN-SUFFIX,coinmarketcap.com
+DOMAIN-SUFFIX,api.coinmarketcap.com
+DOMAIN-SUFFIX,dapi.coinmarketcap.com
+DOMAIN-SUFFIX,s2.coinmarketcap.com
+DOMAIN-SUFFIX,s3.coinmarketcap.com
+DOMAIN-SUFFIX,account.coinmarketcap.com
+DOMAIN-SUFFIX,academy-public.coinmarketcap.com
+DOMAIN-SUFFIX,coinmarketcap.zendesk.com
+
+# CoinGecko
+DOMAIN-SUFFIX,coingecko.com
+DOMAIN-SUFFIX,static.coingecko.com
+DOMAIN-SUFFIX,assets.coingecko.com
+DOMAIN-SUFFIX,support.coingecko.com
+DOMAIN-SUFFIX,partner.coingecko.com
+DOMAIN-SUFFIX,landing.coingecko.com
+DOMAIN-SUFFIX,ads.coingecko.com
+DOMAIN-SUFFIX,geckoterminal.com
+DOMAIN-SUFFIX,about.geckoterminal.com
