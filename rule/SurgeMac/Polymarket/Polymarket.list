@@ -1,0 +1,33 @@
+# NAME: Polymarket
+# DESCRIPTION: Polymarket 分流规则
+# UPDATED: 2026-09-15
+# DOMAIN-SUFFIX: 28
+# TOTAL: 28
+DOMAIN-SUFFIX,polymarket.com
+DOMAIN-SUFFIX,polymarket.us
+DOMAIN-SUFFIX,polymarketexchange.com
+DOMAIN-SUFFIX,polymarket.dev
+DOMAIN-SUFFIX,polymarket.io
+DOMAIN-SUFFIX,gamma-api.polymarket.com
+DOMAIN-SUFFIX,data-api.polymarket.com
+DOMAIN-SUFFIX,clob.polymarket.com
+DOMAIN-SUFFIX,bridge.polymarket.com
+DOMAIN-SUFFIX,relayer-v2.polymarket.com
+DOMAIN-SUFFIX,ws-subscriptions-clob.polymarket.com
+DOMAIN-SUFFIX,ws-live-data.polymarket.com
+DOMAIN-SUFFIX,sports-api.polymarket.com
+DOMAIN-SUFFIX,api.perpetuals.polymarket.com
+DOMAIN-SUFFIX,ws.perpetuals.polymarket.com
+DOMAIN-SUFFIX,docs.polymarket.com
+DOMAIN-SUFFIX,status.polymarket.com
+DOMAIN-SUFFIX,images.polymarket.com
+DOMAIN-SUFFIX,api.polymarket.us
+DOMAIN-SUFFIX,gateway.polymarket.us
+DOMAIN-SUFFIX,docs.polymarket.us
+DOMAIN-SUFFIX,api.prod.polymarketexchange.com
+DOMAIN-SUFFIX,api.preprod.polymarketexchange.com
+DOMAIN-SUFFIX,polymarket-upload.s3.us-east-2.amazonaws.com
+DOMAIN-SUFFIX,polymarket-next-assets.s3.amazonaws.com
+DOMAIN-SUFFIX,clob-v2.polymarket.com
+DOMAIN-SUFFIX,docs.perpetuals.polymarket.com
+DOMAIN-SUFFIX,embeds.polymarket.com
