@@ -1,0 +1,52 @@
+# NAME: Proton
+# DESCRIPTION: Proton Mail & Proton Apps 分流规则
+# UPDATED: 2026-09-15
+
+# Proton 主域名 & 邮箱域名
+DOMAIN-SUFFIX,proton.me
+DOMAIN-SUFFIX,protonmail.com
+DOMAIN-SUFFIX,protonmail.ch
+DOMAIN-SUFFIX,pm.me
+DOMAIN-SUFFIX,protonvpn.com
+
+# 账户 / 登录 / API
+DOMAIN,account.proton.me
+DOMAIN,account-api.proton.me
+DOMAIN,account.protonvpn.com
+DOMAIN,api.proton.me
+
+# Proton Mail
+DOMAIN,mail.proton.me
+DOMAIN,mail.protonmail.ch
+DOMAIN,mailsec.protonmail.ch
+DOMAIN,smtp.protonmail.ch
+
+# Proton Drive
+DOMAIN,drive.proton.me
+
+# Proton Pass
+DOMAIN,pass.proton.me
+DOMAIN,pass-api.proton.me
+
+# Proton Calendar
+DOMAIN,calendar.proton.me
+
+# Proton VPN 相关
+DOMAIN,vpn.proton.me
+DOMAIN,status.proton.me
+
+# CDN / 静态资源 / 其他
+DOMAIN-SUFFIX,protonweb.com
+DOMAIN,vpncdn.protonweb.com
+
+# SimpleLogin（Proton 收购的服务，常与 Pass/Mail 联动）
+DOMAIN-SUFFIX,simplelogin.io
+DOMAIN-SUFFIX,simplelogin.com
+
+# 通知 / 验证 / 支持相关（常用）
+DOMAIN,verify.proton.me
+DOMAIN,recovery.proton.me
+DOMAIN,notify.proton.me
+DOMAIN,news.proton.me
+DOMAIN,offers.proton.me
+DOMAIN,support.proton.me
