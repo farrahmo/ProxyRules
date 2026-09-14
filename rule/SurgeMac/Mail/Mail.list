@@ -1,0 +1,151 @@
+# NAME: Mail
+# DESCRIPTION: Mail 海外邮箱分流规则
+# UPDATED: 2026-09-15
+
+# Gmail & Google Keep
+DOMAIN-SUFFIX,gmail.com
+DOMAIN-SUFFIX,googlemail.com
+DOMAIN,mail.google.com
+DOMAIN,imap.gmail.com
+DOMAIN,smtp.gmail.com
+DOMAIN,pop.gmail.com
+DOMAIN,smtp-relay.gmail.com
+DOMAIN,keep.google.com
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN,mail-attachment.googleusercontent.com
+DOMAIN,clients6.google.com
+
+# Yahoo Mail
+DOMAIN-SUFFIX,yahoo.com
+DOMAIN-SUFFIX,ymail.com
+DOMAIN-SUFFIX,rocketmail.com
+DOMAIN,mail.yahoo.com
+DOMAIN,imap.mail.yahoo.com
+DOMAIN,smtp.mail.yahoo.com
+DOMAIN,pop.mail.yahoo.com
+
+# AOL Mail
+DOMAIN-SUFFIX,aol.com
+DOMAIN-SUFFIX,aim.com
+DOMAIN,mail.aol.com
+DOMAIN,imap.aol.com
+DOMAIN,smtp.aol.com
+DOMAIN,pop.aol.com
+
+# Zoho Mail
+DOMAIN-SUFFIX,zoho.com
+DOMAIN-SUFFIX,zohomail.com
+DOMAIN,mail.zoho.com
+DOMAIN,imap.zoho.com
+DOMAIN,smtp.zoho.com
+DOMAIN,pop.zoho.com
+DOMAIN,imappro.zoho.com
+DOMAIN,smtppro.zoho.com
+DOMAIN,mx.zoho.com
+DOMAIN,mx2.zoho.com
+DOMAIN,mx3.zoho.com
+DOMAIN-SUFFIX,zoho.eu
+DOMAIN-SUFFIX,zoho.in
+DOMAIN-SUFFIX,zoho.com.au
+
+# Tuta Mail
+DOMAIN-SUFFIX,tuta.com
+DOMAIN-SUFFIX,tutamail.com
+DOMAIN-SUFFIX,tuta.io
+DOMAIN-SUFFIX,tutanota.com
+DOMAIN-SUFFIX,tutanota.de
+DOMAIN-SUFFIX,keemail.me
+DOMAIN,app.tuta.com
+DOMAIN,mail.tutanota.de
+DOMAIN-SUFFIX,tutao.de
+
+# Mail.com
+DOMAIN-SUFFIX,mail.com
+DOMAIN-SUFFIX,email.com
+DOMAIN-SUFFIX,post.com
+DOMAIN-SUFFIX,usa.com
+DOMAIN-SUFFIX,consultant.com
+DOMAIN-SUFFIX,myself.com
+DOMAIN-SUFFIX,dr.com
+DOMAIN-SUFFIX,europe.com
+DOMAIN-SUFFIX,engineer.com
+DOMAIN-SUFFIX,asia.com
+DOMAIN-SUFFIX,iname.com
+
+# GMX Mail
+DOMAIN-SUFFIX,gmx.com
+DOMAIN-SUFFIX,gmx.net
+DOMAIN-SUFFIX,gmx.de
+DOMAIN-SUFFIX,gmx.at
+DOMAIN-SUFFIX,gmx.ch
+DOMAIN-SUFFIX,gmx.us
+DOMAIN-SUFFIX,gmx.co.uk
+DOMAIN-SUFFIX,gmx.fr
+DOMAIN-SUFFIX,gmx.es
+DOMAIN,imap.gmx.com
+DOMAIN,smtp.gmx.com
+DOMAIN,mail.gmx.com
+DOMAIN,imap.gmx.net
+DOMAIN,mail.gmx.net
+
+# Fastmail
+DOMAIN-SUFFIX,fastmail.com
+DOMAIN-SUFFIX,fastmail.fm
+DOMAIN-SUFFIX,fastmail.net
+DOMAIN-SUFFIX,messagingengine.com
+DOMAIN,mail.fastmail.com
+DOMAIN,in1-smtp.messagingengine.com
+DOMAIN,in2-smtp.messagingengine.com
+DOMAIN-SUFFIX,fastmailbox.net
+DOMAIN-SUFFIX,fea.st
+DOMAIN-SUFFIX,123mail.org
+DOMAIN-SUFFIX,airpost.net
+DOMAIN-SUFFIX,eml.cc
+DOMAIN-SUFFIX,mailbolt.com
+DOMAIN-SUFFIX,sent.as
+
+# Yandex Mail
+DOMAIN-SUFFIX,yandex.com
+DOMAIN-SUFFIX,yandex.ru
+DOMAIN-SUFFIX,ya.ru
+DOMAIN,mail.yandex.com
+DOMAIN,mail.yandex.ru
+DOMAIN,imap.yandex.com
+DOMAIN,smtp.yandex.com
+DOMAIN,pop.yandex.com
+DOMAIN,imap.ya.ru
+DOMAIN,smtp.ya.ru
+DOMAIN,mx.yandex.net
+
+# Mailfence
+DOMAIN-SUFFIX,mailfence.com
+
+# Runbox
+DOMAIN-SUFFIX,runbox.com
+
+# Disroot
+DOMAIN-SUFFIX,disroot.org
+
+# Hey
+DOMAIN-SUFFIX,hey.com
+
+# Posteo
+DOMAIN-SUFFIX,posteo.de
+DOMAIN-SUFFIX,posteo.net
+
+# StartMail
+DOMAIN-SUFFIX,startmail.com
+
+# Skiff Mail（已停服，保留历史域名以防遗漏）
+DOMAIN-SUFFIX,skiff.com
+
+# DuckDuckGo Email Protection
+DOMAIN-SUFFIX,duck.com
+DOMAIN-SUFFIX,duckduckgo.com
+
+# Internxt Mail
+DOMAIN-SUFFIX,internxt.com
+
+# Infomaniak Mail
+DOMAIN-SUFFIX,infomaniak.com
+DOMAIN-SUFFIX,infomaniak.ch
