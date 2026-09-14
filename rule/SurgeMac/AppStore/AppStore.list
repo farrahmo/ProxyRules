@@ -1,0 +1,7 @@
+# NAME: AppStore
+# DESCRIPTION: App Store 分流规则
+# UPDATED: 2026-09-15
+# DOMAIN-SUFFIX: 2
+# TOTAL: 2
+DOMAIN-SUFFIX,apps.apple.com
+DOMAIN-SUFFIX,itunes.apple.com
