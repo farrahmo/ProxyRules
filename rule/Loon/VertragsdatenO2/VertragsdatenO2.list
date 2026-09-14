@@ -1,0 +1,11 @@
+# NAME: Vertragsdaten O2
+# DESCRIPTION: O2 Deutschland (Vertragsdaten / Mein O2) 分流规则
+# UPDATED: 2026-09-15
+# DOMAIN-SUFFIX: 6
+# TOTAL: 6
+DOMAIN-SUFFIX,o2online.de
+DOMAIN-SUFFIX,o2.de
+DOMAIN-SUFFIX,telefonica.de
+DOMAIN-SUFFIX,login.o2online.de
+DOMAIN-SUFFIX,hilfe.o2online.de
+DOMAIN-SUFFIX,info.o2online.de
