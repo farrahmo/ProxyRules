@@ -1,0 +1,33 @@
+# NAME: Siri 分流规则
+# DESCRIPTION: Apple Siri & Grok & Siri Suggestions & Search
+# UPDATED: 2026-09-15
+
+# Siri Official Core
+DOMAIN-SUFFIX,guzzoni.apple.com
+DOMAIN-SUFFIX,smoot.apple.com
+
+# Siri Legacy / Compatibility
+DOMAIN-SUFFIX,guzzoni.smoot.apple.com
+DOMAIN-SUFFIX,siri.apple.com
+DOMAIN-SUFFIX,probe.siri.apple.com
+
+# Siri Region / Suggestions
+DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
+DOMAIN-SUFFIX,guzzoni-apple-com.v.aaplimg.com
+
+# Apple Intelligence / Siri Shared Infrastructure
+DOMAIN-SUFFIX,apple-relay.apple.com
+DOMAIN-SUFFIX,apple-relay.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+DOMAIN-SUFFIX,cp4.cloudflare.com
+
+# Extended Relay / CDN
+DOMAIN-SUFFIX,apple-relay.akamaized.net
+DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net
+
+# iCloud / Siri / Apple Intelligence Shared
+DOMAIN-SUFFIX,gateway.icloud.com
+DOMAIN-SUFFIX,mask-api.icloud.com
+
+# App / Siri / ChatGPT Integration
+DOMAIN-SUFFIX,aapps.mzstatic.com
