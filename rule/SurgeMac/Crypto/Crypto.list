@@ -1,6 +1,6 @@
-# NAME: Crypto & CryptoMarkets 分流规则
-# DESCRIPTION: Cryptocurrency & Crypto & CryptoMarkets
-# UPDATED: 2026-08-28
+# NAME: Crypto 分流规则
+# DESCRIPTION: Cryptocurrency & Crypto
+# UPDATED: 2026-09-15
 
 # Binance
 DOMAIN-SUFFIX,binance.com
@@ -110,24 +110,3 @@ DOMAIN-SUFFIX,download.mocortech.com
 DOMAIN-SUFFIX,mexc.link
 DOMAIN-SUFFIX,mexc.cg
 DOMAIN-SUFFIX,mexc.ci
-
-# CoinMarketCap
-DOMAIN-SUFFIX,coinmarketcap.com
-DOMAIN-SUFFIX,api.coinmarketcap.com
-DOMAIN-SUFFIX,dapi.coinmarketcap.com
-DOMAIN-SUFFIX,s2.coinmarketcap.com
-DOMAIN-SUFFIX,s3.coinmarketcap.com
-DOMAIN-SUFFIX,account.coinmarketcap.com
-DOMAIN-SUFFIX,academy-public.coinmarketcap.com
-DOMAIN-SUFFIX,coinmarketcap.zendesk.com
-
-# CoinGecko
-DOMAIN-SUFFIX,coingecko.com
-DOMAIN-SUFFIX,static.coingecko.com
-DOMAIN-SUFFIX,assets.coingecko.com
-DOMAIN-SUFFIX,support.coingecko.com
-DOMAIN-SUFFIX,partner.coingecko.com
-DOMAIN-SUFFIX,landing.coingecko.com
-DOMAIN-SUFFIX,ads.coingecko.com
-DOMAIN-SUFFIX,geckoterminal.com
-DOMAIN-SUFFIX,about.geckoterminal.com
