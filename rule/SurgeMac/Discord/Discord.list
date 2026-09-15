@@ -1,0 +1,40 @@
+# NAME: Discord
+# DESCRIPTION: Discord 分流规则
+# UPDATED: 2026-09-15
+# DOMAIN-SUFFIX: 36
+# TOTAL: 36
+DOMAIN-SUFFIX,airhorn.solutions
+DOMAIN-SUFFIX,airhornbot.com
+DOMAIN-SUFFIX,bigbeans.solutions
+DOMAIN-SUFFIX,daveprotocol.com
+DOMAIN-SUFFIX,dis.gd
+DOMAIN-SUFFIX,discord-activities.com
+DOMAIN-SUFFIX,discord-attachments-uploads-prd.storage.googleapis.com
+DOMAIN-SUFFIX,discord.co
+DOMAIN-SUFFIX,discord.com
+DOMAIN-SUFFIX,discord.design
+DOMAIN-SUFFIX,discord.dev
+DOMAIN-SUFFIX,discord.gg
+DOMAIN-SUFFIX,discord.gift
+DOMAIN-SUFFIX,discord.gifts
+DOMAIN-SUFFIX,discord.media
+DOMAIN-SUFFIX,discord.new
+DOMAIN-SUFFIX,discord.store
+DOMAIN-SUFFIX,discord.tools
+DOMAIN-SUFFIX,discordactivities.com
+DOMAIN-SUFFIX,discordapp.com
+DOMAIN-SUFFIX,discordapp.io
+DOMAIN-SUFFIX,discordapp.net
+DOMAIN-SUFFIX,discordapp.page.link
+DOMAIN-SUFFIX,discordcdn.com
+DOMAIN-SUFFIX,discordmerch.com
+DOMAIN-SUFFIX,discordpartygames.com
+DOMAIN-SUFFIX,discordquests.com
+DOMAIN-SUFFIX,discordsays.com
+DOMAIN-SUFFIX,discordsez.com
+DOMAIN-SUFFIX,discordstatus.com
+DOMAIN-SUFFIX,discordvibeapps.com
+DOMAIN-SUFFIX,hammerandchisel.ssl.zendesk.com
+DOMAIN-SUFFIX,i.dis.gd
+DOMAIN-SUFFIX,vibeyard.tools
+DOMAIN-SUFFIX,watchanimeattheoffice.com
