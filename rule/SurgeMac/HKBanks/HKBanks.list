@@ -1,0 +1,92 @@
+# NAME: HKBanks 分流规则
+# DESCRIPTION: Hong Kong Banks & Payment
+# UPDATED: 2026-08-10
+
+# 汇丰香港 (HSBC Hong Kong)
+DOMAIN-SUFFIX,hsbc.com.hk
+DOMAIN,rbwm-api.hsbc.com.hk
+DOMAIN,wsit-api.hsbc.com.hk
+DOMAIN,cdn.hsbc.com.hk
+DOMAIN,m.mobilex-static.hsbc.com.hk
+DOMAIN,mauth-hk.hsbc.com.hk
+DOMAIN,online-banking.business.hsbc.com.hk
+DOMAIN,servicing.hsbc.com.hk
+DOMAIN,redirect.hsbc.com.hk
+DOMAIN-SUFFIX,hsbcnet.com
+
+# 中银香港 (BOCHK / 中国银行香港)
+DOMAIN-SUFFIX,bochk.com
+DOMAIN,api.bochk.com
+DOMAIN,mobile.bochk.com
+DOMAIN,online.bochk.com
+
+# 蚂蚁银行 (Ant Bank Hong Kong)
+DOMAIN-SUFFIX,antbank.hk
+DOMAIN,developer.antbank.hk
+DOMAIN-SUFFIX,antgroup.com
+DOMAIN-SUFFIX,antfin.com
+
+# AlipayHK
+DOMAIN-SUFFIX,alipayhk.com
+DOMAIN-SUFFIX,alipay.hk
+DOMAIN,www.alipay.hk
+DOMAIN,docs.alipay.hk
+DOMAIN,imgs.alipay.hk
+DOMAIN,imobileweb.alipay.hk
+DOMAIN,render.alipay.hk
+DOMAIN-SUFFIX,alipay.com
+DOMAIN-SUFFIX,alipayobjects.com
+
+# ZA Bank (众安银行)
+DOMAIN-SUFFIX,za.group
+DOMAIN-SUFFIX,bank.za.group
+DOMAIN,cdn.za.group
+DOMAIN,developer.bank.za.group
+DOMAIN,apisandbox.bank.za.group
+
+# 象象银行（原天星银行 / Airstar Bank → EleBank）
+DOMAIN-SUFFIX,airstarbank.com
+DOMAIN-SUFFIX,elebank.com
+
+# livi Bank (理慧银行)
+DOMAIN-SUFFIX,livibank.com
+DOMAIN,developer.livibank.com
+DOMAIN,cdn.livibank.com
+DOMAIN,api.livibank.com
+DOMAIN,app.livibank.com
+DOMAIN,livibank.app.link
+
+# WeLab Bank (汇立银行)
+DOMAIN-SUFFIX,welab.bank
+DOMAIN-SUFFIX,welab.com
+DOMAIN,welab.app.link
+
+# 恒生香港 (Hang Seng Bank)
+DOMAIN-SUFFIX,hangseng.com
+DOMAIN-SUFFIX,hase.com
+DOMAIN,developer.hangseng.com
+DOMAIN,develop.hangseng.com
+DOMAIN,secure.sandbox.ob.hangseng.com
+
+# 建行（港澳）/ 中国建设银行（亚洲）
+DOMAIN-SUFFIX,asia.ccb.com
+DOMAIN-SUFFIX,ccb.com.hk
+DOMAIN-SUFFIX,ccba.com.hk
+DOMAIN,online.asia.ccb.com
+DOMAIN,mobile.asia.ccb.com
+DOMAIN,m.asia.ccb.com
+DOMAIN,mo.ccb.com
+DOMAIN-SUFFIX,ccb.com
+
+# 工银亚洲 (ICBC Asia / 中国工商银行亚洲)
+DOMAIN-SUFFIX,icbcasia.com
+DOMAIN,openapi.icbcasia.com
+DOMAIN,api.icbcasia.com
+DOMAIN,mobile.icbcasia.com
+DOMAIN,online.icbcasia.com
+
+# 招商永隆银行 (CMB Wing Lung Bank)
+DOMAIN-SUFFIX,cmbwinglungbank.com
+DOMAIN-SUFFIX,wlb.com.hk
+DOMAIN,ac.cmbwinglungbank.com
+DOMAIN,push.cmbwinglungbank.com
