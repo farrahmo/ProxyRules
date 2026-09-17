@@ -1,0 +1,12 @@
+# NAME: Grok
+# DESCRIPTION: Grok 分流规则
+# UPDATED: 2026-09-02
+# DOMAIN-SUFFIX: 7
+# TOTAL: 7
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,grok.x.com
+DOMAIN-SUFFIX,grokipedia.com
+DOMAIN-SUFFIX,grok.me
+DOMAIN-SUFFIX,featureassets.org
+DOMAIN-SUFFIX,xai.chronosphere.io
