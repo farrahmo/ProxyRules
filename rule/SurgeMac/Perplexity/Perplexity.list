@@ -1,0 +1,10 @@
+# NAME: Perplexity
+# DESCRIPTION: Perplexity 分流规则
+# UPDATED: 2026-09-02
+# DOMAIN-SUFFIX: 5
+# TOTAL: 5
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,perplexity.com
+DOMAIN-SUFFIX,pplx.ai
+DOMAIN-SUFFIX,ppl-ai-file-upload.s3.amazonaws.com
+DOMAIN-SUFFIX,pplx-res.cloudinary.com
