@@ -1,0 +1,23 @@
+# NAME: FinanceDirect 分流规则
+# DESCRIPTION: Wise & iFASTGB & Starryblu
+# UPDATED: 2026-09-17
+
+# Wise
+DOMAIN-SUFFIX,wise.com
+DOMAIN-SUFFIX,transferwise.com
+DOMAIN-SUFFIX,prd-wise.com
+DOMAIN-SUFFIX,wise.cdn
+DOMAIN-SUFFIX,wiseplatform.com
+DOMAIN-SUFFIX,wise-sandbox.com
+DOMAIN-SUFFIX,transferwise.tech
+
+# iFASTGB
+DOMAIN-SUFFIX,ifast.com
+DOMAIN-SUFFIX,ifastgm.com.sg
+DOMAIN-SUFFIX,ifastgp.com
+DOMAIN-SUFFIX,ifastglobal.com
+DOMAIN-SUFFIX,ifastcdn.com
+
+# Starryblu
+DOMAIN-SUFFIX,starryblu.com
+DOMAIN-SUFFIX,blog.starryblu.com
