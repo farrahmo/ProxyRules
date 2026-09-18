@@ -1,0 +1,28 @@
+# NAME: Club Sim
+# DESCRIPTION: Club Sim 分流规则
+# UPDATED: 2026-09-18
+# DOMAIN-SUFFIX: 13
+# TOTAL: 13
+
+# 核心官方域名
+DOMAIN-SUFFIX,clubsim.com.hk
+DOMAIN-SUFFIX,www.clubsim.com.hk
+
+# App 相关
+DOMAIN-SUFFIX,app.clubsim.com.hk
+
+DOMAIN-SUFFIX,shop.clubsim.com.hk
+DOMAIN-SUFFIX,5g.clubsim.com.hk
+DOMAIN-SUFFIX,d.clubsim.com.hk
+DOMAIN-SUFFIX,e.clubsim.com.hk
+DOMAIN-SUFFIX,r.clubsim.com.hk
+
+# 测试/预发环境
+DOMAIN-SUFFIX,uat.clubsim.com.hk
+
+DOMAIN-SUFFIX,uat-d.clubsim.com.hk
+DOMAIN-SUFFIX,uat-e.clubsim.com.hk
+DOMAIN-SUFFIX,shopuat.clubsim.com.hk
+
+The Club 会员/积分体系，登录与积分高度相关
+DOMAIN-SUFFIX,theclub.com.hk
