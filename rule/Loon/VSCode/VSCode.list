@@ -1,15 +1,15 @@
 # NAME: VSCode
 # DESCRIPTION: Visual Studio Code 分流规则（更新/扩展市场/设置同步/Web/CDN/GitHub 原始文件）
+# AUTHOR: community
+# SOURCE: https://code.visualstudio.com/docs/setup/network
 # UPDATED: 2026-09-25
-# DOMAIN: 19
-# DOMAIN-SUFFIX: 24
-# TOTAL: 43
+# DOMAIN: 18
+# DOMAIN-SUFFIX: 13
+# TOTAL: 31
 
-# 扩展市场（安装/更新扩展，最常用)
+# 扩展市场（安装/更新扩展，最常用）
 DOMAIN,marketplace.visualstudio.com
 DOMAIN-SUFFIX,vsassets.io
-DOMAIN-SUFFIX,gallery.vsassets.io
-DOMAIN-SUFFIX,gallerycdn.vsassets.io
 DOMAIN,vsmarketplacebadges.dev
 DOMAIN,vsmarketplacebadge.apphb.com
 
