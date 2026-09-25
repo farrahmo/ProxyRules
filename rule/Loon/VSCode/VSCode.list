@@ -1,0 +1,59 @@
+# NAME: VSCode
+# DESCRIPTION: Visual Studio Code 分流规则（更新/扩展市场/设置同步/Web/CDN/GitHub 原始文件）
+# UPDATED: 2026-09-25
+# DOMAIN: 19
+# DOMAIN-SUFFIX: 24
+# TOTAL: 43
+
+# 扩展市场（安装/更新扩展，最常用)
+DOMAIN,marketplace.visualstudio.com
+DOMAIN-SUFFIX,vsassets.io
+DOMAIN-SUFFIX,gallery.vsassets.io
+DOMAIN-SUFFIX,gallerycdn.vsassets.io
+DOMAIN,vsmarketplacebadges.dev
+DOMAIN,vsmarketplacebadge.apphb.com
+
+# 更新与安装包下载
+DOMAIN,update.code.visualstudio.com
+DOMAIN,vscode.download.prss.microsoft.com
+DOMAIN,download.visualstudio.microsoft.com
+DOMAIN,az764295.vo.msecnd.net
+
+# 官网与文档
+DOMAIN,code.visualstudio.com
+DOMAIN,go.microsoft.com
+
+# GitHub 原始文件（扩展/配置常拉取）
+DOMAIN,raw.githubusercontent.com
+
+# 设置同步 Settings Sync
+DOMAIN,vscode-sync.trafficmanager.net
+DOMAIN,vscode-sync-insiders.trafficmanager.net
+
+# Web / 在线版 / Webview
+DOMAIN-SUFFIX,vscode.dev
+DOMAIN,insiders.vscode.dev
+DOMAIN-SUFFIX,vscode-webview.net
+DOMAIN-SUFFIX,vscode-unpkg.net
+
+# CDN / 静态资源
+DOMAIN-SUFFIX,vscode-cdn.net
+DOMAIN,vscode.blob.core.windows.net
+
+# 产品内搜索 / 实验 / 崩溃报告
+DOMAIN,vscode.search.windows.net
+DOMAIN,bingsettingssearch.trafficmanager.net
+DOMAIN,default.exp-tas.com
+DOMAIN,rink.hockeyapp.net
+
+# Visual Studio 相关主域
+DOMAIN-SUFFIX,visualstudio.com
+DOMAIN-SUFFIX,visualstudio.net
+DOMAIN-SUFFIX,visualstudio.co
+DOMAIN-SUFFIX,visualstudio.co.uk
+DOMAIN-SUFFIX,visualstudio.eu
+DOMAIN-SUFFIX,visualstudio-staging.com
+
+# 教育版等
+DOMAIN-SUFFIX,vscodeedu.com
+DOMAIN-SUFFIX,vscodeedu.app
