@@ -1,0 +1,23 @@
+NAME: Obsidian 分流规则
+DESCRIPTION: Obsidian 官方服务、Obsidian Sync、Publish 及社区插件市场分流规则
+UPDATED: 2026-09-26
+DOMAIN-SUFFIX: 18
+TOTAL: 18
+DOMAIN-SUFFIX,obsidian.md
+DOMAIN-SUFFIX,api.obsidian.md
+DOMAIN-SUFFIX,sync.obsidian.md
+DOMAIN-SUFFIX,publish.obsidian.md
+DOMAIN-SUFFIX,publish-main.obsidian.md
+DOMAIN-SUFFIX,releases.obsidian.md
+DOMAIN-SUFFIX,help.obsidian.md
+DOMAIN-SUFFIX,forum.obsidian.md
+DOMAIN-SUFFIX,forum-zh.obsidian.md
+DOMAIN-SUFFIX,community.obsidian.md
+DOMAIN-SUFFIX,status.obsidian.md
+DOMAIN-SUFFIX,docs.obsidian.md
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,raw.githubusercontent.com
+DOMAIN-SUFFIX,avatars.githubusercontent.com
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,github.io
+DOMAIN-SUFFIX,obsidianmd.github.io
