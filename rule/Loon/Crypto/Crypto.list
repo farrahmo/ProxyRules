@@ -1,6 +1,6 @@
 # NAME: Crypto 分流规则
 # DESCRIPTION: Cryptocurrency & Crypto
-# UPDATED: 2026-08-28
+# UPDATED: 2026-10-03
 
 # Binance
 DOMAIN-SUFFIX,binance.com
@@ -75,17 +75,33 @@ DOMAIN-SUFFIX,neverless.com
 
 # Bitget
 DOMAIN-SUFFIX,bitget.com
-DOMAIN-SUFFIX,bitget.site
 DOMAIN-SUFFIX,bitget.io
+DOMAIN-SUFFIX,bitget.site
+DOMAIN-SUFFIX,bitgetapps.com
 DOMAIN-SUFFIX,bgbstatic.com
 DOMAIN-SUFFIX,bgstatic.com
-DOMAIN-SUFFIX,bitgetimg.com
-DOMAIN-SUFFIX,btsgtm.com
+DOMAIN-SUFFIX,bpgslb.com
+DOMAIN-SUFFIX,bitgettradfi.com
+DOMAIN-SUFFIX,web3.bitget.com
+DOMAIN-SUFFIX,api.bitget.com
+DOMAIN-SUFFIX,ws.bitget.com
+DOMAIN-SUFFIX,wspap.bitget.com
+DOMAIN-SUFFIX,stream.bitget.com
+DOMAIN-SUFFIX,static.bitget.com
+DOMAIN-SUFFIX,m.bitget.com
+DOMAIN-SUFFIX,academy.bitget.com
+DOMAIN-SUFFIX,blog.bitget.com
+DOMAIN-SUFFIX,learning.bitget.com
+DOMAIN-SUFFIX,affiliates.bitget.com
+DOMAIN-SUFFIX,partner.bitget.com
+DOMAIN-SUFFIX,share.bitget.com
+DOMAIN-SUFFIX,portal-web3.bitget.com
 DOMAIN-SUFFIX,bkcode.vip
+DOMAIN-SUFFIX,bgwapi.io
 DOMAIN-SUFFIX,bitkeep.com
-DOMAIN-SUFFIX,bitkeep.vip
-DOMAIN-SUFFIX,gurenla.com
-DOMAIN-SUFFIX,bitgetapps.com
+DOMAIN-SUFFIX,bitkeep.io
+DOMAIN-SUFFIX,bitkeep.org
+DOMAIN-SUFFIX,bitkeep.app
 
 # SafePal
 DOMAIN-SUFFIX,safepal.com
