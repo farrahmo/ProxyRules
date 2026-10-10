@@ -1,0 +1,37 @@
+# NAME: Maya 分流规则
+# DESCRIPTION: 菲律宾 Maya 数字银行 / e-Wallet
+# UPDATED: 2026-10-10
+# DOMAIN-SUFFIX: 28
+# DOMAIN-KEYWORD: 3
+# TOTAL: 31
+DOMAIN-SUFFIX,maya.ph
+DOMAIN-SUFFIX,paymaya.com
+DOMAIN-SUFFIX,mayabank.ph
+DOMAIN-SUFFIX,developers.maya.ph
+DOMAIN-SUFFIX,support.maya.ph
+DOMAIN-SUFFIX,pg.maya.ph
+DOMAIN-SUFFIX,payments.maya.ph
+DOMAIN-SUFFIX,payments.paymaya.com
+DOMAIN-SUFFIX,api.maya.ph
+DOMAIN-SUFFIX,api.paymaya.com
+DOMAIN-SUFFIX,assets.maya.ph
+DOMAIN-SUFFIX,store.maya.ph
+DOMAIN-SUFFIX,online.maya.ph
+DOMAIN-SUFFIX,enterprise.maya.ph
+DOMAIN-SUFFIX,manager.paymaya.com
+DOMAIN-SUFFIX,connect.paymaya.com
+DOMAIN-SUFFIX,op.paymaya.com
+DOMAIN-SUFFIX,pbm.paymaya.com
+DOMAIN-SUFFIX,cares.paymaya.com
+DOMAIN-SUFFIX,dev-forum.maya.ph
+DOMAIN-SUFFIX,security-center.maya.ph
+DOMAIN-SUFFIX,push-api.maya.ph
+DOMAIN-SUFFIX,pos-kb-app.maya.ph
+DOMAIN-SUFFIX,p1-static-contents.maya.ph
+DOMAIN-SUFFIX,payments-web-assets.maya.ph
+DOMAIN-SUFFIX,checkouts.maya.ph
+DOMAIN-SUFFIX,official.maya.ph
+DOMAIN-SUFFIX,sandbox.api.maya.ph
+DOMAIN-KEYWORD,paymaya
+DOMAIN-KEYWORD,mayabank
+DOMAIN-KEYWORD,maya-ph
