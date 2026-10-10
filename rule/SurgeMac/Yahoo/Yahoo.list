@@ -1,0 +1,80 @@
+# NAME: Yahoo 分流规则
+# DESCRIPTION: Yahoo Mail & Yahoo Services
+# UPDATED: 2026-10-10
+
+# ========== 主域名 & 邮箱相关 ==========
+DOMAIN-SUFFIX,yahoo.com
+DOMAIN-SUFFIX,ymail.com
+DOMAIN-SUFFIX,rocketmail.com
+DOMAIN-SUFFIX,myyahoo.com
+DOMAIN-SUFFIX,yahooapis.com
+DOMAIN-SUFFIX,yahoodns.net
+DOMAIN-SUFFIX,yimg.com
+DOMAIN-SUFFIX,yahooinc.com
+DOMAIN-SUFFIX,ouryahoo.com
+
+# ========== 登录 / 账户 / OAuth / API ==========
+DOMAIN,login.yahoo.com
+DOMAIN,api.login.yahoo.com
+DOMAIN,account.yahoo.com
+DOMAIN,edit.yahoo.com
+DOMAIN,id.yahoo.com
+DOMAIN,guce.yahoo.com
+DOMAIN,consent.yahoo.com
+DOMAIN,api.yahoo.com
+DOMAIN,query.yahoo.com
+
+# ========== Yahoo Mail 核心 ==========
+DOMAIN,mail.yahoo.com
+DOMAIN,mail.yahoo.com.hk
+DOMAIN,hk.mail.yahoo.com
+DOMAIN,imap.mail.yahoo.com
+DOMAIN,smtp.mail.yahoo.com
+DOMAIN,pop.mail.yahoo.com
+DOMAIN,m.yahoo.com
+DOMAIN,mg.mail.yahoo.com
+
+# ========== 日历 / 通讯录 ==========
+DOMAIN,calendar.yahoo.com
+DOMAIN,caldav.calendar.yahoo.com
+DOMAIN,carddav.address.yahoo.com
+DOMAIN,address.yahoo.com
+
+# ========== 香港 / 区域站点（重点） ==========
+DOMAIN-SUFFIX,yahoo.com.hk
+DOMAIN,hk.yahoo.com
+DOMAIN,hk.m.yahoo.com
+DOMAIN,yahoo-news.com.hk
+DOMAIN,myguide.hk
+
+# ========== CDN / 静态资源 / 图片 ==========
+DOMAIN-SUFFIX,yimg.com
+DOMAIN,s.yimg.com
+DOMAIN,l.yimg.com
+DOMAIN,sp.yimg.com
+DOMAIN,fc.yahoo.com
+DOMAIN,s.yimg.jp
+
+# ========== 其他常用服务 ==========
+DOMAIN-SUFFIX,yahoofinance.com
+DOMAIN,finance.yahoo.com
+DOMAIN,news.yahoo.com
+DOMAIN,sports.yahoo.com
+DOMAIN,search.yahoo.com
+DOMAIN,maps.yahoo.com
+DOMAIN,weather.yahoo.com
+DOMAIN,help.yahoo.com
+DOMAIN,support.yahoo.com
+
+# ========== 历史 / 关联域名（AOL 等，可选） ==========
+DOMAIN-SUFFIX,aol.com
+DOMAIN-SUFFIX,aolcdn.com
+DOMAIN-SUFFIX,aim.com
+DOMAIN-SUFFIX,verizonmedia.com
+DOMAIN-SUFFIX,oath.com
+
+# ========== 其他补充 ==========
+DOMAIN-SUFFIX,maktoob.com
+DOMAIN-SUFFIX,techcrunch.com
+DOMAIN,developer.yahoo.com
+DOMAIN,developer.yahooapis.com
