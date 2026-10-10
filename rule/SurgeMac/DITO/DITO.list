@@ -1,0 +1,23 @@
+# NAME: DITO 分流规则
+# DESCRIPTION: DITO Telecommunity
+# UPDATED: 2026-10-10
+# DOMAIN-SUFFIX: 18
+# TOTAL: 18
+DOMAIN-SUFFIX,dito.ph
+DOMAIN-SUFFIX,ditobusiness.ph
+DOMAIN-SUFFIX,ditonetwork.ph
+DOMAIN-SUFFIX,ditocmeholdings.ph
+DOMAIN-SUFFIX,galing.dito.ph
+DOMAIN-SUFFIX,eshop.dito.ph
+DOMAIN-SUFFIX,app.dito.ph
+DOMAIN-SUFFIX,digital.dito.ph
+DOMAIN-SUFFIX,internet.dito.ph
+DOMAIN-SUFFIX,mms.dito.ph
+DOMAIN-SUFFIX,mmsc.dito.ph
+DOMAIN-SUFFIX,www.dito.ph
+DOMAIN-SUFFIX,mydito.dito.ph
+DOMAIN-SUFFIX,my.dito.ph
+DOMAIN-SUFFIX,api.dito.ph
+DOMAIN-SUFFIX,static.dito.ph
+DOMAIN-SUFFIX,cdn.dito.ph
+DOMAIN-SUFFIX,portal.dito.ph
