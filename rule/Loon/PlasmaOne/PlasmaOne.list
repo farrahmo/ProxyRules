@@ -1,0 +1,35 @@
+# NAME: PlasmaOne
+# DESCRIPTION: Plasma One 分流规则（含官网、App、支付后端、RPC、浏览器、测试网等）
+# UPDATED: 2026-10-13
+# DOMAIN-SUFFIX: 8
+# TOTAL: 8
+
+# 主站、落地页、文档、个人/商业页面、恢复验证等
+DOMAIN-SUFFIX,plasma.org
+
+# Web App、API（api.*）、RPC（rpc. / testnet-rpc.）、文档（docs.）、生态、桥接相关等
+DOMAIN-SUFFIX,plasma.to
+
+# 卡/支付核心后端（pay-api.prod*、pay-tasks.prod*、WebSocket、backoffice 等多区域）
+DOMAIN-SUFFIX,plasma-one.tech
+
+# 官方区块链浏览器（主网 + testnet.plasmascan.to）
+DOMAIN-SUFFIX,plasmascan.to
+
+# 社区/文档相关（docs.plasma.army、blog 等）
+DOMAIN-SUFFIX,plasma.army
+
+# 连接/注册相关服务
+DOMAIN-SUFFIX,connect-plasma.to
+
+# 注册流程相关
+DOMAIN-SUFFIX,registration-plasma.to
+
+# Earn/Vault 相关服务
+DOMAIN-SUFFIX,vaults-plasma.to
+
+# 可选第三方（KYC / 钱包 / 发卡 / 法币账户）
+DOMAIN-SUFFIX,sumsub.com
+DOMAIN-SUFFIX,privy.io
+DOMAIN-SUFFIX,rain.xyz
+DOMAIN-SUFFIX,bridge.xyz
