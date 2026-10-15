@@ -1,0 +1,191 @@
+NAME: CNCloud 分流规则
+DESCRIPTION: China Cloud Storage, Netdisk & Device Cloud Services
+UPDATED: 2026-10-15
+
+# 说明
+# 1. 本清单收录各产品可明确归属的官网、账号、同步、上传、下载、分享及专属 CDN/API 域名。
+# 2. 不默认收录 aliyuncs.com、myqcloud.com、bcebos.com、cos.*、getui.com 等共享云与推送域名，避免误分流其他 App。
+# 3. DOMAIN-SUFFIX 已覆盖对应域名的一切子域；具体 DOMAIN 行保留为便于审阅的关键服务说明。
+
+########################################
+# 综合型主流网盘 / 云盘
+########################################
+
+# 百度网盘
+DOMAIN-SUFFIX,baidupcs.com
+DOMAIN,pan.baidu.com
+DOMAIN,yun.baidu.com
+DOMAIN,pcs.baidu.com
+DOMAIN,d.pcs.baidu.com
+DOMAIN,c.pcs.baidu.com
+DOMAIN,issuecdn.baidupcs.com
+
+# 阿里云盘
+DOMAIN-SUFFIX,alipan.com
+DOMAIN-SUFFIX,aliyundrive.com
+DOMAIN,api.alipan.com
+DOMAIN,openapi.alipan.com
+DOMAIN,api.aliyundrive.com
+DOMAIN,auth.aliyundrive.com
+DOMAIN,member.aliyundrive.com
+
+# 夸克网盘
+# 注：quark.cn 为夸克搜索/浏览器共享主域，因此只收录网盘专用主机。
+DOMAIN,pan.quark.cn
+DOMAIN,drive.quark.cn
+DOMAIN,drive-pc.quark.cn
+DOMAIN,drive-m.quark.cn
+
+# 迅雷云盘
+DOMAIN,pan.xunlei.com
+DOMAIN,api-pan.xunlei.com
+DOMAIN,xluser-ssl.xunlei.com
+DOMAIN,login.xunlei.com
+
+# 腾讯微云
+DOMAIN-SUFFIX,weiyun.com
+DOMAIN,www.weiyun.com
+DOMAIN,share.weiyun.com
+
+# 115
+DOMAIN-SUFFIX,115.com
+DOMAIN-SUFFIX,115cdn.com
+DOMAIN-SUFFIX,115cdn.net
+DOMAIN-SUFFIX,115cloud.cn
+DOMAIN-SUFFIX,115cloud.com
+DOMAIN-SUFFIX,115cloud.net
+DOMAIN-SUFFIX,115img.com
+DOMAIN-SUFFIX,115meta.com
+DOMAIN-SUFFIX,115vod.com
+DOMAIN-SUFFIX,116cd.cn
+DOMAIN-SUFFIX,116cd.com
+DOMAIN-SUFFIX,116cd.net
+DOMAIN-SUFFIX,anxia.com
+DOMAIN,webapi.115.com
+
+# 123 云盘
+# 含现行 API/网页版，以及为兼容已分享文件保留的官方历史域名与专属下载 CDN。
+DOMAIN-SUFFIX,123pan.com
+DOMAIN-SUFFIX,123pan.cn
+DOMAIN-SUFFIX,123278.com
+DOMAIN-SUFFIX,123684.com
+DOMAIN-SUFFIX,123685.com
+DOMAIN-SUFFIX,123912.com
+DOMAIN-SUFFIX,123592.com
+DOMAIN-SUFFIX,123957.com
+DOMAIN-SUFFIX,cjjd18.com
+DOMAIN-SUFFIX,cjjd19.com
+DOMAIN,yun.123pan.cn
+DOMAIN,api.123pan.cn
+DOMAIN,api.123278.com
+DOMAIN,cross-frontend.123pan.com
+DOMAIN,cross-frontend.123957.com
+
+# UC 网盘
+# 注：uc.cn/ucweb.com 为 UC 浏览器、搜索等共享域名，默认不作泛域名分流。
+DOMAIN,drive.uc.cn
+DOMAIN,fast.uc.cn
+DOMAIN,pc-api.uc.cn
+
+########################################
+# 运营商云盘
+########################################
+
+# 天翼云盘
+DOMAIN-SUFFIX,cloud.189.cn
+DOMAIN,cloud.189.cn
+DOMAIN,api.cloud.189.cn
+DOMAIN,m.cloud.189.cn
+DOMAIN,h5.cloud.189.cn
+
+# 和彩云 / 中国移动云盘
+# 注：139.com、10086.cn 为运营商通用域名，默认仅使用云盘专用主机。
+DOMAIN,yun.139.com
+DOMAIN,caiyun.139.com
+DOMAIN-SUFFIX,mcloud.139.com
+DOMAIN,api.mcloud.139.com
+DOMAIN,caiyun.feixin.10086.cn
+
+# 联通云盘 / 沃云盘
+# 注：wo.cn 为中国联通共享主域名，默认仅纳入云盘专用域名。
+DOMAIN-SUFFIX,pan.wo.cn
+DOMAIN,pan.wo.cn
+DOMAIN,gxupload.pan.wo.cn
+DOMAIN,tjupload.pan.wo.cn
+DOMAIN,panservice.mail.wo.cn
+
+########################################
+# 手机厂商云服务
+########################################
+
+# 华为云空间
+DOMAIN-SUFFIX,hicloud.com
+DOMAIN-SUFFIX,dbankcdn.com
+DOMAIN,cloud.huawei.com
+DOMAIN,cloud.huawei.com.cn
+DOMAIN,driveapis.cloud.huawei.com.cn
+
+# 小米云服务
+# 注：xiaomi.com/xiaomi.net 是小米全生态共享域名，仅纳入云服务专用主机。
+DOMAIN,i.mi.com
+DOMAIN,micloud.mi.com
+DOMAIN,micloud.xiaomi.net
+DOMAIN,api.micloud.xiaomi.net
+DOMAIN,api.g.micloud.xiaomi.net
+DOMAIN,appbackupapi.micloud.xiaomi.net
+DOMAIN,contactapi.micloud.xiaomi.net
+DOMAIN,galleryapi.micloud.xiaomi.net
+DOMAIN,find.api.micloud.xiaomi.net
+DOMAIN,statusapi.micloud.xiaomi.net
+DOMAIN,account.xiaomi.com
+
+# vivo 云服务
+DOMAIN,cloud.vivo.com.cn
+DOMAIN,account.vivo.com.cn
+DOMAIN,file.vivo.com.cn
+DOMAIN,files.vivo.com.cn
+DOMAIN,storage.vivo.com.cn
+DOMAIN,gallery.vivo.com.cn
+
+# OPPO 云 / HeyTap 云服务
+# 注：oppo.com 是 OPPO 全生态主站，默认不作泛域名分流。
+DOMAIN,cloud.oppo.com
+DOMAIN,cloud.heytap.com
+DOMAIN,id.oppo.com
+DOMAIN-SUFFIX,heytapcs.com
+DOMAIN-SUFFIX,heytapimage.com
+DOMAIN-SUFFIX,heytapdownload.com
+DOMAIN-SUFFIX,heytapmobi.com
+DOMAIN,httpdns.ocloud.heytapmobi.com
+DOMAIN,httpdns.ocloud.oppomobile.com
+
+########################################
+# 第三方文件存储 / 同步
+########################################
+
+# 坚果云
+DOMAIN-SUFFIX,jianguoyun.com
+DOMAIN,www.jianguoyun.com
+DOMAIN,dav.jianguoyun.com
+
+# 蓝奏云 / 蓝奏网盘
+# 蓝奏会切换分享域名；以下为当前与常见备用域，woozooo.com 承载登录、账户与上传 API。
+DOMAIN-SUFFIX,lanzou.com
+DOMAIN-SUFFIX,lanzouo.com
+DOMAIN-SUFFIX,lanzouw.com
+DOMAIN-SUFFIX,lanzoui.com
+DOMAIN-SUFFIX,lanzoux.com
+DOMAIN-SUFFIX,lanzoup.com
+DOMAIN-SUFFIX,lanzouv.com
+DOMAIN-SUFFIX,lanzouj.com
+DOMAIN-SUFFIX,lanzouq.com
+DOMAIN-SUFFIX,lanzous.com
+DOMAIN-SUFFIX,woozooo.com
+DOMAIN,pc.woozooo.com
+DOMAIN,up.woozooo.com
+DOMAIN,api.ilanzou.com
+
+# 城通网盘
+DOMAIN-SUFFIX,ctfile.com
+DOMAIN,www.ctfile.com
+DOMAIN,union.ctfile.com
