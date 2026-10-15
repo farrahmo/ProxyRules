@@ -1,0 +1,252 @@
+NAME: CNInvest 分流规则
+DESCRIPTION: China Investment, Securities & Financial News Apps
+UPDATED: 2026-10-15
+
+# 说明
+# 1. 本清单只收录运营方自有域名及可明确归属的专用服务域名；DOMAIN-SUFFIX 已覆盖其 API、登录、行情、图片与 CDN 子域。
+# 2. 不默认纳入阿里云、腾讯云、百度云、个推、极光等共享基础设施，以免把无关 App 一并分流。
+# 3. 金融 App 会动态调整调度域名；遇到遗漏，请以 Surge/Loon 网络日志中“可确认归属”的 SNI/Host 为准补充。
+
+########################################
+# 综合股票 / 行情 / 投资
+########################################
+
+# 东方财富 / 东方财富证券 / 股吧
+DOMAIN-SUFFIX,eastmoney.com
+DOMAIN-SUFFIX,eastmoney.com.cn
+DOMAIN-SUFFIX,1234567.com.cn
+DOMAIN,push2.eastmoney.com
+DOMAIN,push2delay.eastmoney.com
+DOMAIN,push2his.eastmoney.com
+DOMAIN,push2ex.eastmoney.com
+DOMAIN,datacenter.eastmoney.com
+DOMAIN,datacenter-web.eastmoney.com
+DOMAIN,emappdata.eastmoney.com
+DOMAIN,gbapi.eastmoney.com
+DOMAIN,searchapi.eastmoney.com
+DOMAIN,np-anotice-stock.eastmoney.com
+DOMAIN,np-listapi.eastmoney.com
+DOMAIN,myfavor.eastmoney.com
+DOMAIN,quote.eastmoney.com
+DOMAIN,fundgz.1234567.com.cn
+
+# 同花顺 / iFinD / 问财
+DOMAIN-SUFFIX,10jqka.com
+DOMAIN-SUFFIX,10jqka.com.cn
+DOMAIN-SUFFIX,51ifind.com
+DOMAIN-SUFFIX,hexin.cn
+DOMAIN-SUFFIX,myhexin.com
+DOMAIN-SUFFIX,ths123.com
+DOMAIN,q.10jqka.com.cn
+DOMAIN,data.10jqka.com.cn
+DOMAIN,d.10jqka.com.cn
+DOMAIN,dq.10jqka.com.cn
+DOMAIN,basic.10jqka.com.cn
+DOMAIN,news.10jqka.com.cn
+DOMAIN,ft.10jqka.com.cn
+DOMAIN,quantapi.51ifind.com
+
+# 雪球
+DOMAIN-SUFFIX,xueqiu.com
+DOMAIN-SUFFIX,xueqiu.com.cn
+DOMAIN-SUFFIX,xqimg.com
+DOMAIN,stock.xueqiu.com
+DOMAIN,stockn.xueqiu.com
+DOMAIN,api.xueqiu.com
+
+# 大智慧
+DOMAIN-SUFFIX,gw.com.cn
+DOMAIN-SUFFIX,dzh.com.cn
+
+# 腾讯自选股 / 腾讯财经
+# 注：qq.com、gtimg.cn 为全腾讯共享域名，默认不以 DOMAIN-SUFFIX 方式纳入。
+DOMAIN,finance.qq.com
+DOMAIN,stock.qq.com
+DOMAIN,stock.gtimg.cn
+DOMAIN,ifzq.gtimg.cn
+
+# 通达信
+DOMAIN-SUFFIX,tdx.com.cn
+DOMAIN-SUFFIX,tdx.com
+DOMAIN,page.tdx.com.cn
+
+# 华泰证券涨乐财富通
+# 域名在下方“券商 / 证券交易”的华泰证券条目中统一列出。
+
+########################################
+# 基金 / 理财 / 综合金融
+########################################
+
+# 蚂蚁财富
+DOMAIN-SUFFIX,antfortune.com
+DOMAIN-SUFFIX,antgroup.com
+DOMAIN-SUFFIX,antfin.com
+DOMAIN-SUFFIX,alipay.com
+DOMAIN-SUFFIX,alipay.cn
+DOMAIN-SUFFIX,alipayobjects.com
+DOMAIN-SUFFIX,mybank.cn
+
+# 天天基金（东方财富）
+# 复用上方东方财富与 1234567.com.cn 域名。
+
+# 腾讯理财通
+# 注：tenpay.com 为腾讯支付共享域名，理财通登录、申赎通常需要；不纳入 qq.com 全域。
+DOMAIN-SUFFIX,tenpay.com
+DOMAIN,qian.tenpay.com
+
+# 京东金融
+DOMAIN-SUFFIX,jd.com
+DOMAIN-SUFFIX,jingdong.com
+DOMAIN-SUFFIX,jdpay.com
+DOMAIN-SUFFIX,jdcloud.com
+DOMAIN-SUFFIX,360buyimg.com
+
+# 度小满金融
+DOMAIN-SUFFIX,duxiaoman.com
+DOMAIN-SUFFIX,duxiaomanfintech.com
+DOMAIN-SUFFIX,baifubao.com
+
+# 蛋卷基金（雪球）
+DOMAIN-SUFFIX,danjuanfunds.com
+# 复用上方雪球域名。
+
+# 同花顺爱基金
+DOMAIN-SUFFIX,5ifund.com
+DOMAIN,fund.10jqka.com.cn
+
+# 陆金所
+DOMAIN-SUFFIX,lufax.com
+DOMAIN-SUFFIX,lufax.com.cn
+DOMAIN-SUFFIX,lu.com
+DOMAIN-SUFFIX,lu.com.cn
+DOMAIN-SUFFIX,lufaxcdn.com
+DOMAIN-SUFFIX,lujinsuo.com.cn
+DOMAIN-SUFFIX,lujinsuo.net
+DOMAIN-SUFFIX,lujincaifu.com
+
+########################################
+# 券商 / 证券交易
+########################################
+
+# 华泰证券 / 涨乐财富通
+DOMAIN-SUFFIX,htsc.com
+DOMAIN-SUFFIX,htsc.com.cn
+DOMAIN-SUFFIX,htsc.com.hk
+DOMAIN-SUFFIX,zhangle.com
+DOMAIN,m.zhangle.com
+
+# 中信证券 / 信e投
+DOMAIN-SUFFIX,citics.com
+DOMAIN-SUFFIX,citicsinfo.com
+DOMAIN-SUFFIX,ecitic.com
+
+# 国泰海通 / 君弘（含原国泰君安、海通证券）
+DOMAIN-SUFFIX,gtht.com
+DOMAIN-SUFFIX,gtja.com
+DOMAIN-SUFFIX,gtjas.com
+DOMAIN-SUFFIX,haitong.com
+DOMAIN,app.gtht.com
+
+# 招商证券
+DOMAIN-SUFFIX,cmschina.com
+DOMAIN-SUFFIX,newone.com.cn
+
+# 中信建投 / 蜻蜓点金
+DOMAIN-SUFFIX,csc.com.cn
+DOMAIN-SUFFIX,csc108.com
+
+# 广发证券 / 广发易淘金
+DOMAIN-SUFFIX,gf.com.cn
+DOMAIN-SUFFIX,gfzq.com.cn
+
+# 中国银河证券
+DOMAIN-SUFFIX,chinastock.com.cn
+DOMAIN-SUFFIX,ygsc.com
+
+# 国信证券 / 金太阳
+DOMAIN-SUFFIX,guosen.com.cn
+DOMAIN-SUFFIX,guosen.com
+
+# 中金财富
+DOMAIN-SUFFIX,cicc.com
+DOMAIN-SUFFIX,cicc.com.cn
+DOMAIN-SUFFIX,ciccwm.com
+DOMAIN-SUFFIX,ciccwm.cn
+
+# 平安证券
+# 注：pingan.com、pa18.com 为全平安集团共享域名，避免扩大命中范围，默认不纳入。
+DOMAIN-SUFFIX,pazq.com
+DOMAIN,stock.pingan.com
+
+# 东方证券
+DOMAIN-SUFFIX,orientsec.com.cn
+DOMAIN-SUFFIX,dfzq.com.cn
+
+# 申万宏源
+DOMAIN-SUFFIX,swhysc.com
+DOMAIN-SUFFIX,hysec.com
+DOMAIN-SUFFIX,sywg.com
+
+# 兴业证券 / 优理宝
+DOMAIN-SUFFIX,xyzq.com.cn
+DOMAIN-SUFFIX,industrialsecurities.com
+
+# 财通证券
+DOMAIN-SUFFIX,ctsec.com
+DOMAIN-SUFFIX,ctsec.com.cn
+
+# 国联民生证券（含原国联、民生证券）
+DOMAIN-SUFFIX,glms.com.cn
+DOMAIN-SUFFIX,glsc.com.cn
+DOMAIN-SUFFIX,mszq.com
+
+########################################
+# 财经资讯 / 财经媒体
+########################################
+
+# 财联社
+DOMAIN-SUFFIX,cls.cn
+DOMAIN-SUFFIX,cailianpress.com
+
+# 华尔街见闻 / 选股宝
+DOMAIN-SUFFIX,wallstreetcn.com
+DOMAIN-SUFFIX,wallstcn.com
+
+# 新浪财经
+DOMAIN-SUFFIX,sina.com.cn
+DOMAIN-SUFFIX,sina.cn
+DOMAIN-SUFFIX,sinaimg.cn
+DOMAIN-SUFFIX,sinajs.cn
+DOMAIN,finance.sina.com.cn
+
+# 第一财经
+DOMAIN-SUFFIX,yicai.com
+DOMAIN-SUFFIX,yicai.com.cn
+DOMAIN-SUFFIX,cbnweek.com
+
+# 金十数据
+DOMAIN-SUFFIX,jin10.com
+DOMAIN-SUFFIX,jin10.com.cn
+
+# 证券时报
+DOMAIN-SUFFIX,stcn.com
+
+# 中国证券报
+DOMAIN-SUFFIX,cs.com.cn
+
+# 证券之星
+DOMAIN-SUFFIX,stockstar.com
+
+# 网易财经
+# 注：163.com、netease.com 同时承载网易其他业务；若只想分流财经，请保留下方精确域名即可。
+DOMAIN,finance.163.com
+DOMAIN,money.163.com
+DOMAIN,quotes.money.163.com
+
+########################################
+# 专业行情 / 交易终端
+########################################
+
+# 文华财经 / 文华随身行 / 赢顺
+DOMAIN-SUFFIX,wenhua.com.cn
+DOMAIN-SUFFIX,wh6.com.cn
