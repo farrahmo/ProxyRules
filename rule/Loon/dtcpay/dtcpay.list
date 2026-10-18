@@ -1,0 +1,9 @@
+# NAME: dtcpay
+# DESCRIPTION: DTC Pay / dtcpay 分流规则
+# UPDATED: 2026-10-18
+# DOMAIN-SUFFIX: 4
+# TOTAL: 4
+DOMAIN-SUFFIX,dtcpay.com
+DOMAIN-SUFFIX,personal.dtcpay.com
+DOMAIN-SUFFIX,business.dtcpay.com
+DOMAIN-SUFFIX,dtcpay.lu
