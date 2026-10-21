@@ -1,0 +1,43 @@
+# NAME: Bybit
+# DESCRIPTION: Bybit 分流规则 (主站 + 区域站 + API)
+# UPDATED: 2026-10-21
+# DOMAIN-SUFFIX: 24
+# DOMAIN: 2
+# TOTAL: 26
+
+# ===== 主站 & 核心 =====
+DOMAIN-SUFFIX,bybit.com
+DOMAIN-SUFFIX,bytick.com
+DOMAIN-SUFFIX,bybit.org
+DOMAIN-SUFFIX,bybit.biz
+DOMAIN-SUFFIX,bybit.cloud
+DOMAIN-SUFFIX,bybit-global.com
+DOMAIN-SUFFIX,bybitglobal.com
+
+# ===== 区域站 =====
+DOMAIN-SUFFIX,bybit.eu
+DOMAIN-SUFFIX,bybit.kz
+DOMAIN-SUFFIX,bybit.nl
+DOMAIN-SUFFIX,bybit.tr
+DOMAIN-SUFFIX,bybit-tr.com
+DOMAIN-SUFFIX,bybit.ae
+DOMAIN-SUFFIX,bybitgeorgia.ge
+DOMAIN-SUFFIX,bybit.id
+DOMAIN-SUFFIX,byhkbit.com
+
+# ===== API / 技术域名 =====
+DOMAIN-SUFFIX,bycsi.com
+DOMAIN-SUFFIX,byapis.com
+DOMAIN-SUFFIX,bycbe.com
+DOMAIN-SUFFIX,bymj.io
+DOMAIN-SUFFIX,byabcde.com
+DOMAIN-SUFFIX,byapps.net
+DOMAIN-SUFFIX,byd3c3.com
+DOMAIN-SUFFIX,bybdc6.com
+
+# ===== 文档 & 客服 =====
+DOMAIN,bybit-exchange.github.io
+DOMAIN,bybit.ada.support
+
+# =====「可选关联（历史合作）」，默认不生效 =====
+# DOMAIN-SUFFIX,bitverse.zone
