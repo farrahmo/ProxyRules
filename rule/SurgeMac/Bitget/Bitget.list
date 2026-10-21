@@ -1,0 +1,11 @@
+# NAME: Bitget
+# DESCRIPTION: Bitget 分流规则（交易所、App、API 与官方静态资源）
+# UPDATED: 2026-10-21
+# DOMAIN-SUFFIX: 6
+# TOTAL: 6
+DOMAIN-SUFFIX,bitget.com
+DOMAIN-SUFFIX,bitgetapp.com
+DOMAIN-SUFFIX,bitgetapps.com
+DOMAIN-SUFFIX,bitgetimg.com
+DOMAIN-SUFFIX,bgstatic.com
+DOMAIN-SUFFIX,bgbstatic.com
