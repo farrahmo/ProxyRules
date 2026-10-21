@@ -1,0 +1,10 @@
+# NAME: Kraken
+# DESCRIPTION: Kraken 与 Kraken Pro 分流规则（交易所、API、Pro 与期货服务）
+# UPDATED: 2026-10-21
+# DOMAIN-SUFFIX: 5
+# TOTAL: 5
+DOMAIN-SUFFIX,kraken.com
+DOMAIN-SUFFIX,payward.com
+DOMAIN-SUFFIX,krakenfutures.com
+DOMAIN-SUFFIX,cryptofacilities.com
+DOMAIN-SUFFIX,krakenfx.com
