@@ -1,0 +1,15 @@
+# NAME: Bitget Wallet
+# DESCRIPTION: Bitget Wallet 分流规则（Web3 钱包、BitKeep 兼容与钱包专用 API）
+# UPDATED: 2026-10-21
+# DOMAIN-SUFFIX: 10
+# TOTAL: 10
+DOMAIN-SUFFIX,web3.bitget.com
+DOMAIN-SUFFIX,web3.bitget.cloud
+DOMAIN-SUFFIX,portal-web3.bitget.com
+DOMAIN-SUFFIX,bitkeep.com
+DOMAIN-SUFFIX,bitkeep.io
+DOMAIN-SUFFIX,bitkeep.org
+DOMAIN-SUFFIX,bitkeep.vip
+DOMAIN-SUFFIX,bgwapi.io
+DOMAIN-SUFFIX,bgw.world
+DOMAIN-SUFFIX,bitgetwallet.io
