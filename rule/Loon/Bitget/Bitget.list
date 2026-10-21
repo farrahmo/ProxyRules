@@ -1,33 +1,11 @@
 # NAME: Bitget
-# DESCRIPTION: Bitget 分流规则
-# UPDATED: 2026-10-03
-# DOMAIN-SUFFIX: 28
-# TOTAL: 28
+# DESCRIPTION: Bitget 分流规则（交易所、App、API 与官方静态资源）
+# UPDATED: 2026-10-21
+# DOMAIN-SUFFIX: 6
+# TOTAL: 6
 DOMAIN-SUFFIX,bitget.com
-DOMAIN-SUFFIX,bitget.io
-DOMAIN-SUFFIX,bitget.site
+DOMAIN-SUFFIX,bitgetapp.com
 DOMAIN-SUFFIX,bitgetapps.com
-DOMAIN-SUFFIX,bgbstatic.com
+DOMAIN-SUFFIX,bitgetimg.com
 DOMAIN-SUFFIX,bgstatic.com
-DOMAIN-SUFFIX,bpgslb.com
-DOMAIN-SUFFIX,bitgettradfi.com
-DOMAIN-SUFFIX,web3.bitget.com
-DOMAIN-SUFFIX,api.bitget.com
-DOMAIN-SUFFIX,ws.bitget.com
-DOMAIN-SUFFIX,wspap.bitget.com
-DOMAIN-SUFFIX,stream.bitget.com
-DOMAIN-SUFFIX,static.bitget.com
-DOMAIN-SUFFIX,m.bitget.com
-DOMAIN-SUFFIX,academy.bitget.com
-DOMAIN-SUFFIX,blog.bitget.com
-DOMAIN-SUFFIX,learning.bitget.com
-DOMAIN-SUFFIX,affiliates.bitget.com
-DOMAIN-SUFFIX,partner.bitget.com
-DOMAIN-SUFFIX,share.bitget.com
-DOMAIN-SUFFIX,portal-web3.bitget.com
-DOMAIN-SUFFIX,bkcode.vip
-DOMAIN-SUFFIX,bgwapi.io
-DOMAIN-SUFFIX,bitkeep.com
-DOMAIN-SUFFIX,bitkeep.io
-DOMAIN-SUFFIX,bitkeep.org
-DOMAIN-SUFFIX,bitkeep.app
+DOMAIN-SUFFIX,bgbstatic.com
