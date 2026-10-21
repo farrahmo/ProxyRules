@@ -1,11 +1,8 @@
 # NAME: SafePal
 # DESCRIPTION: SafePal 分流规则
-# UPDATED: 2026-08-22
-# DOMAIN-SUFFIX: 6
-# TOTAL: 6
+# UPDATED: 2026-10-21
+# DOMAIN-SUFFIX: 3
+# TOTAL: 3
 DOMAIN-SUFFIX,safepal.com
 DOMAIN-SUFFIX,safepal.io
-DOMAIN-SUFFIX,static.safepal.com
-DOMAIN-SUFFIX,store.safepal.com
-DOMAIN-SUFFIX,ton-bridge.safepal.com
-DOMAIN-SUFFIX,storedapi.safepal.com
+DOMAIN-SUFFIX,safepalsupport.zendesk.com
