@@ -1,0 +1,17 @@
+# NAME: MEXC
+# DESCRIPTION: MEXC（含 MEXC 虚拟卡）分流规则
+# UPDATED: 2026-10-21
+# DOMAIN-SUFFIX: 12
+# TOTAL: 12
+DOMAIN-SUFFIX,mexc.com
+DOMAIN-SUFFIX,mexc.co
+DOMAIN-SUFFIX,mexc.in
+DOMAIN-SUFFIX,mexc.fm
+DOMAIN-SUFFIX,mexc.io
+DOMAIN-SUFFIX,mexc.link
+DOMAIN-SUFFIX,mexc.cg
+DOMAIN-SUFFIX,mexc.ci
+DOMAIN-SUFFIX,mexcdevelop.github.io
+DOMAIN-SUFFIX,static.mocortech.com
+DOMAIN-SUFFIX,public.mocortech.com
+DOMAIN-SUFFIX,download.mocortech.com
