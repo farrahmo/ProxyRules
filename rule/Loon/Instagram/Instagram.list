@@ -1,0 +1,31 @@
+# NAME: Instagram
+# DESCRIPTION: Instagram 分流规则（包含核心域名、媒体 CDN 及相关 Meta 共享基础设施）
+# UPDATED: 2026-10-22
+# DOMAIN-SUFFIX: 18
+# DOMAIN: 1
+# TOTAL: 19
+
+# Instagram 核心域名
+DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,instagr.am
+DOMAIN-SUFFIX,ig.me
+DOMAIN-SUFFIX,igcdn.com
+DOMAIN-SUFFIX,igsonar.com
+DOMAIN-SUFFIX,igtv.com
+
+# Meta/Facebook 共享基础设施
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,facebook.net
+DOMAIN-SUFFIX,fb.com
+DOMAIN-SUFFIX,fb.me
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,fbcdn.com
+DOMAIN-SUFFIX,fbsbx.com
+DOMAIN-SUFFIX,fbsbx.net
+DOMAIN-SUFFIX,tfbnw.net
+DOMAIN-SUFFIX,accountkit.com
+DOMAIN-SUFFIX,fbpigeon.com
+
+# Instagram 相关静态资源
+DOMAIN,instagramstatic-a.akamaihd.net
