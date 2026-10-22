@@ -1,0 +1,42 @@
+# NAME: Taobao
+# DESCRIPTION: 淘宝 & 天猫 分流规则
+# UPDATED: 2026-10-22
+# DOMAIN-SUFFIX: 33
+# TOTAL: 33
+
+# 淘宝
+DOMAIN-SUFFIX,taobao.com
+DOMAIN-SUFFIX,taobao.cn
+DOMAIN-SUFFIX,taobao.org
+DOMAIN-SUFFIX,taobao.wang
+DOMAIN-SUFFIX,tb.cn
+DOMAIN-SUFFIX,tb.pub
+DOMAIN-SUFFIX,tbcache.com
+DOMAIN-SUFFIX,tbcdn.com
+DOMAIN-SUFFIX,tbcdn.cn
+DOMAIN-SUFFIX,taobaocdn.com
+DOMAIN-SUFFIX,alicdn.com
+DOMAIN-SUFFIX,alicdn.net
+DOMAIN-SUFFIX,mmstat.com
+DOMAIN-SUFFIX,etao.com
+DOMAIN-SUFFIX,juhuasuan.com
+DOMAIN-SUFFIX,1688.com
+DOMAIN-SUFFIX,alimama.com
+DOMAIN-SUFFIX,alimama.cn
+DOMAIN-SUFFIX,pailitao.com
+DOMAIN-SUFFIX,taopiaopiao.com
+DOMAIN-SUFFIX,tburl.in
+DOMAIN-SUFFIX,searchtb.com
+
+# 天猫
+DOMAIN-SUFFIX,tmall.com
+DOMAIN-SUFFIX,tmall.hk
+DOMAIN-SUFFIX,tmall.ru
+DOMAIN-SUFFIX,tianmao.com
+DOMAIN-SUFFIX,tianmao.cn
+DOMAIN-SUFFIX,tmallgenie.com
+DOMAIN-SUFFIX,tmallgenieapi.com
+DOMAIN-SUFFIX,tmalltv.com
+DOMAIN-SUFFIX,tmallplay.com
+DOMAIN-SUFFIX,tmallplay.cn
+DOMAIN-SUFFIX,tmallplay.net
