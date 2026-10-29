@@ -2,21 +2,8 @@
 # DESCRIPTION: Mail 海外邮箱分流规则
 # UPDATED: 2026-10-29
 
-# (Gmail & Google Keep & Tuta Mail & Zoho Mail & Mail.com & AOL Mail & GMX Mail & Fastmail & Yandex Mail & 
+# (Tuta Mail & Zoho Mail & Mail.com & AOL Mail & GMX Mail & Fastmail & Yandex Mail &
 # Mailfence & Runbox & Disroot & Hey & Posteo & StartMail & Skiff Mail & DuckDuckGo Email Protection & Internxt Mail & Infomaniak Mail)
-
-# Gmail & Google Keep
-DOMAIN-SUFFIX,gmail.com
-DOMAIN-SUFFIX,googlemail.com
-DOMAIN,mail.google.com
-DOMAIN,imap.gmail.com
-DOMAIN,smtp.gmail.com
-DOMAIN,pop.gmail.com
-DOMAIN,smtp-relay.gmail.com
-DOMAIN,keep.google.com
-DOMAIN-SUFFIX,googleusercontent.com
-DOMAIN,mail-attachment.googleusercontent.com
-DOMAIN,clients6.google.com
 
 # Tuta Mail
 DOMAIN-SUFFIX,tuta.com
