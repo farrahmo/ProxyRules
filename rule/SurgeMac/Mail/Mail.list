@@ -2,6 +2,9 @@
 # DESCRIPTION: Mail 海外邮箱分流规则
 # UPDATED: 2026-09-15
 
+# (Gmail & Google Keep & Tuta Mail & Zoho Mail & Mail.com & AOL Mail & GMX Mail & Fastmail & Yandex Mail & 
+# Mailfence & Runbox & Disroot & Hey & Posteo & StartMail & Skiff Mail & DuckDuckGo Email Protection & Internxt Mail & Infomaniak Mail)
+
 # Gmail & Google Keep
 DOMAIN-SUFFIX,gmail.com
 DOMAIN-SUFFIX,googlemail.com
@@ -15,22 +18,16 @@ DOMAIN-SUFFIX,googleusercontent.com
 DOMAIN,mail-attachment.googleusercontent.com
 DOMAIN,clients6.google.com
 
-# Yahoo Mail
-DOMAIN-SUFFIX,yahoo.com
-DOMAIN-SUFFIX,ymail.com
-DOMAIN-SUFFIX,rocketmail.com
-DOMAIN,mail.yahoo.com
-DOMAIN,imap.mail.yahoo.com
-DOMAIN,smtp.mail.yahoo.com
-DOMAIN,pop.mail.yahoo.com
-
-# AOL Mail
-DOMAIN-SUFFIX,aol.com
-DOMAIN-SUFFIX,aim.com
-DOMAIN,mail.aol.com
-DOMAIN,imap.aol.com
-DOMAIN,smtp.aol.com
-DOMAIN,pop.aol.com
+# Tuta Mail
+DOMAIN-SUFFIX,tuta.com
+DOMAIN-SUFFIX,tutamail.com
+DOMAIN-SUFFIX,tuta.io
+DOMAIN-SUFFIX,tutanota.com
+DOMAIN-SUFFIX,tutanota.de
+DOMAIN-SUFFIX,keemail.me
+DOMAIN,app.tuta.com
+DOMAIN,mail.tutanota.de
+DOMAIN-SUFFIX,tutao.de
 
 # Zoho Mail
 DOMAIN-SUFFIX,zoho.com
@@ -48,17 +45,6 @@ DOMAIN-SUFFIX,zoho.eu
 DOMAIN-SUFFIX,zoho.in
 DOMAIN-SUFFIX,zoho.com.au
 
-# Tuta Mail
-DOMAIN-SUFFIX,tuta.com
-DOMAIN-SUFFIX,tutamail.com
-DOMAIN-SUFFIX,tuta.io
-DOMAIN-SUFFIX,tutanota.com
-DOMAIN-SUFFIX,tutanota.de
-DOMAIN-SUFFIX,keemail.me
-DOMAIN,app.tuta.com
-DOMAIN,mail.tutanota.de
-DOMAIN-SUFFIX,tutao.de
-
 # Mail.com
 DOMAIN-SUFFIX,mail.com
 DOMAIN-SUFFIX,email.com
@@ -71,6 +57,14 @@ DOMAIN-SUFFIX,europe.com
 DOMAIN-SUFFIX,engineer.com
 DOMAIN-SUFFIX,asia.com
 DOMAIN-SUFFIX,iname.com
+
+# AOL Mail
+DOMAIN-SUFFIX,aol.com
+DOMAIN-SUFFIX,aim.com
+DOMAIN,mail.aol.com
+DOMAIN,imap.aol.com
+DOMAIN,smtp.aol.com
+DOMAIN,pop.aol.com
 
 # GMX Mail
 DOMAIN-SUFFIX,gmx.com
