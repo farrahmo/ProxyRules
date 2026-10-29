@@ -1,0 +1,7 @@
+# NAME: Backpack
+# DESCRIPTION: Backpack 分流规则
+# UPDATED: 2026-10-29
+# DOMAIN-SUFFIX: 2
+# TOTAL: 2
+DOMAIN-SUFFIX,backpack.exchange
+DOMAIN-SUFFIX,backpack.app
