@@ -1,0 +1,21 @@
+# NAME: ESPN
+# DESCRIPTION: ESPN 分流规则（官网 / App / API / CDN / 流媒体）
+# UPDATED: 2026-10-30
+# DOMAIN-SUFFIX: 9
+# TOTAL: 9
+
+# 主站与核心
+DOMAIN-SUFFIX,espn.com
+DOMAIN-SUFFIX,espncdn.com
+DOMAIN-SUFFIX,espn.net
+
+# 流媒体 / BAMTech
+DOMAIN-SUFFIX,bamgrid.com
+DOMAIN-SUFFIX,fn-pz.com
+
+# Disney 相关（精确）
+DOMAIN-SUFFIX,espn.go.com
+
+# 旗下站点
+DOMAIN-SUFFIX,espncricinfo.com
+DOMAIN-SUFFIX,xgames.com
