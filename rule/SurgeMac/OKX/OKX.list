@@ -1,16 +1,20 @@
 # NAME: OKX
-# DESCRIPTION: OKX 分流规则（全球站、App、API、Web3 与官方基础设施）
-# UPDATED: 2026-10-21
-# DOMAIN-SUFFIX: 12
-# TOTAL: 12
+# DESCRIPTION: OKX 分流规则（全球站、App、API、WebSocket、DNS 与官方生态）
+# UPDATED: 2026-11-01
+
+# OKX 核心服务
 DOMAIN-SUFFIX,okx.com
 DOMAIN-SUFFIX,okx.ac
 DOMAIN-SUFFIX,okx.cab
+DOMAIN-SUFFIX,okex.com
+DOMAIN-SUFFIX,okx.com.cdn.cloudflare.net
+
+# OKX DNS 基础设施
 DOMAIN-SUFFIX,okx-dns.com
 DOMAIN-SUFFIX,okx-dns1.com
 DOMAIN-SUFFIX,okx-dns2.com
-DOMAIN-SUFFIX,okx.com.cdn.cloudflare.net
-DOMAIN-SUFFIX,okex.com
+
+# OKX 关联生态
 DOMAIN-SUFFIX,oklink.com
 DOMAIN-SUFFIX,okg.com
 DOMAIN-SUFFIX,okcoin.com
