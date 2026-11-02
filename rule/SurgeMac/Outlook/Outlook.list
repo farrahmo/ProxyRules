@@ -1,27 +1,29 @@
 # NAME: Outlook
-# DESCRIPTION: Outlook 分流规则
-# UPDATED: 2026-09-15
-# DOMAIN-SUFFIX: 22
-# TOTAL: 22
+# DESCRIPTION: Outlook & Exchange 邮件分流规则
+# UPDATED: 2026-11-02
+
+# ===== Outlook Personal Mail =====
 DOMAIN-SUFFIX,outlook.com
 DOMAIN-SUFFIX,hotmail.com
-DOMAIN-SUFFIX,live.com
-DOMAIN-SUFFIX,msn.com
-DOMAIN-SUFFIX,live.cn
+DOMAIN-SUFFIX,outlook.live.com
+
+# ===== Outlook China =====
 DOMAIN-SUFFIX,outlook.cn
-DOMAIN-SUFFIX,live.net
-DOMAIN-SUFFIX,office365.com
-DOMAIN-SUFFIX,office.com
+DOMAIN-SUFFIX,live.cn
+DOMAIN-SUFFIX,partner.outlook.cn
+DOMAIN-SUFFIX,protection.partner.outlook.cn
+
+# ===== Exchange Online =====
 DOMAIN-SUFFIX,outlook.office.com
 DOMAIN-SUFFIX,outlook.office365.com
 DOMAIN-SUFFIX,outlook.cloud.microsoft
-DOMAIN-SUFFIX,cloud.microsoft
 DOMAIN-SUFFIX,protection.outlook.com
-DOMAIN-SUFFIX,smtp-mail.outlook.com
-DOMAIN-SUFFIX,outlook.live.com
-DOMAIN-SUFFIX,partner.outlook.cn
-DOMAIN-SUFFIX,protection.partner.outlook.cn
-DOMAIN-SUFFIX,smtp.partner.outlook.cn
+DOMAIN-SUFFIX,mail.protection.outlook.com
+DOMAIN-SUFFIX,autodiscover.outlook.com
+
+# ===== Outlook Mobile =====
 DOMAIN-SUFFIX,outlookmobile.com
 DOMAIN-SUFFIX,acompli.net
+
+# ===== Outlook Attachments =====
 DOMAIN-SUFFIX,attachments.office.net
