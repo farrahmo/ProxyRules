@@ -1,17 +1,28 @@
+
 # NAME: Gmail & Google Keep
 # DESCRIPTION: Gmail & Google Keep 分流规则
-# UPDATED: 2026-10-29
-# DOMAIN-SUFFIX: 8
-# TOTAL: 8
+# UPDATED: 2026-11-02
+# DOMAIN-SUFFIX: 14
+# TOTAL: 14
 
-# Gmail
+# ===== Gmail =====
 DOMAIN-SUFFIX,gmail.com
 DOMAIN-SUFFIX,googlemail.com
 DOMAIN-SUFFIX,mail.google.com
-DOMAIN-SUFFIX,inbox.google.com
 DOMAIN-SUFFIX,gmail.googleapis.com
-DOMAIN-SUFFIX,imap.gmail.com
-DOMAIN-SUFFIX,smtp.gmail.com
 
-# Google Keep
+# Gmail Account & API
+DOMAIN-SUFFIX,accounts.google.com
+DOMAIN-SUFFIX,apis.google.com
+DOMAIN-SUFFIX,contacts.google.com
+DOMAIN-SUFFIX,ogs.google.com
+
+# Gmail Attachments & Resources
+DOMAIN-SUFFIX,mail-attachment.google.com
+DOMAIN-SUFFIX,ssl.gstatic.com
+DOMAIN-SUFFIX,www.gstatic.com
+DOMAIN-SUFFIX,googleusercontent.com
+
+# ===== Google Keep =====
 DOMAIN-SUFFIX,keep.google.com
+DOMAIN-SUFFIX,keep.googleapis.com
