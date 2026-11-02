@@ -1,0 +1,53 @@
+
+# NAME: OneDrive
+# DESCRIPTION: OneDrive 分流规则（个人版 + 商业版）
+# UPDATED: 2026-11-02
+
+# ===== OneDrive Core =====
+DOMAIN-SUFFIX,onedrive.com
+DOMAIN-SUFFIX,onedrive.live.com
+DOMAIN-SUFFIX,1drv.ms
+
+# ===== OneDrive Storage & Files =====
+DOMAIN-SUFFIX,files.1drv.com
+DOMAIN-SUFFIX,storage.live.com
+DOMAIN-SUFFIX,livefilestore.com
+DOMAIN-SUFFIX,storage.msn.com
+
+# ===== OneDrive API & Sync =====
+DOMAIN-SUFFIX,api.live.net
+DOMAIN-SUFFIX,apis.live.net
+DOMAIN-SUFFIX,skyapi.live.net
+DOMAIN-SUFFIX,snapi.live.net
+DOMAIN-SUFFIX,docs.live.net
+DOMAIN-SUFFIX,skydrive.live.com
+DOMAIN-SUFFIX,oneclient.sfx.ms
+DOMAIN-SUFFIX,p.sfx.ms
+DOMAIN-SUFFIX,g.live.com
+
+# ===== OneDrive Photos & Settings =====
+DOMAIN-SUFFIX,favorites.live.com
+DOMAIN-SUFFIX,photos.live.com
+DOMAIN-SUFFIX,oauth.live.com
+DOMAIN-SUFFIX,policies.live.net
+DOMAIN-SUFFIX,settings.live.net
+
+# ===== OneDrive Authentication =====
+DOMAIN-SUFFIX,login.live.com
+DOMAIN-SUFFIX,login.windows.net
+DOMAIN-SUFFIX,login.microsoftonline.com
+DOMAIN-SUFFIX,account.live.com
+
+# ===== OneDrive CDN & Resources =====
+DOMAIN-SUFFIX,spoprod-a.akamaihd.net
+DOMAIN-SUFFIX,officeapps.live.com
+
+# ===== OneDrive for Business =====
+DOMAIN-SUFFIX,sharepoint.com
+DOMAIN-SUFFIX,sharepointonline.com
+DOMAIN-SUFFIX,svc.ms
+DOMAIN-SUFFIX,admin.onedrive.com
+DOMAIN-SUFFIX,officeclient.microsoft.com
+
+# ===== Shared Microsoft API =====
+DOMAIN-SUFFIX,graph.microsoft.com
