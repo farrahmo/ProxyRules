@@ -1,0 +1,7 @@
+# NAME: GoogleSearch
+# DESCRIPTION: Google Search 分流规则
+# AUTHOR: Custom
+# UPDATED: 2026-11-03
+# DOMAIN-SUFFIX: 1
+# TOTAL: 1
+DOMAIN-SUFFIX,google.com
