@@ -1,24 +1,30 @@
 # NAME: Douyin
 # DESCRIPTION: 抖音分流规则
-# UPDATED: 2026-11-03
+# UPDATED: 2026-11-04
 # DOMAIN: 2
-# DOMAIN-SUFFIX: 8
-# TOTAL: 10
+# DOMAIN-SUFFIX: 14
+# TOTAL: 16
 
 # ===== Douyin Core =====
 DOMAIN-SUFFIX,douyin.com
 DOMAIN-SUFFIX,iesdouyin.com
 DOMAIN-SUFFIX,douyinliving.com
+DOMAIN-SUFFIX,amemv.com
 
-# ===== Douyin Video CDN =====
+# ===== Douyin Video / Image CDN =====
 DOMAIN-SUFFIX,douyincdn.com
+DOMAIN-SUFFIX,douyinpic.com
+DOMAIN-SUFFIX,douyinstatic.com
 DOMAIN-SUFFIX,douyinvod.com
 DOMAIN-SUFFIX,idouyinvod.com
 
-# ===== Douyin Image / Static CDN =====
-DOMAIN-SUFFIX,douyinpic.com
-DOMAIN-SUFFIX,douyinstatic.com
+# ===== Douyin / ByteDance API & Related =====
+DOMAIN-SUFFIX,snssdk.com
+DOMAIN-SUFFIX,pstatp.com
+DOMAIN-SUFFIX,ixigua.com
+DOMAIN-SUFFIX,ixiguavideo.com
+DOMAIN-SUFFIX,toutiao.com
 
-# ===== Douyin Specific Hosts =====
+# ===== Specific Douyin Hosts =====
 DOMAIN,lf3-static.bytednsdoc.com
 DOMAIN,v5-dy-o-abtest.zjcdn.com
