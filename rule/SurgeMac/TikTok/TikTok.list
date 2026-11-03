@@ -1,23 +1,32 @@
 # NAME: TikTok
 # DESCRIPTION: TikTok 分流规则
 # UPDATED: 2026-11-03
+# DOMAIN: 4
+# DOMAIN-SUFFIX: 31
+# TOTAL: 35
 
 # ===== TikTok Core =====
 DOMAIN-SUFFIX,tiktok.com
 DOMAIN-SUFFIX,tik-tokapi.com
 DOMAIN-SUFFIX,musical.ly
 
-# ===== TikTok Video / Media CDN =====
-DOMAIN-SUFFIX,tiktokcdn.com
-DOMAIN-SUFFIX,tiktokcdn-us.com
-DOMAIN-SUFFIX,tiktokcdn-in.com
+# ===== TikTok Main API / Application =====
 DOMAIN-SUFFIX,tiktokv.com
 DOMAIN-SUFFIX,tiktokv.us
+DOMAIN-SUFFIX,tiktokv.eu
+DOMAIN-SUFFIX,ttapis.com
+
+# ===== TikTok Video / Image CDN =====
+DOMAIN-SUFFIX,tiktokcdn.com
+DOMAIN-SUFFIX,tiktokcdn-us.com
+DOMAIN-SUFFIX,tiktokcdn-eu.com
 DOMAIN-SUFFIX,tiktokd.net
 DOMAIN-SUFFIX,tiktokd.org
+DOMAIN-SUFFIX,ttwstatic.com
 
 # ===== TikTok International API / SDK =====
 DOMAIN-SUFFIX,isnssdk.com
+DOMAIN-SUFFIX,sgsnssdk.com
 DOMAIN-SUFFIX,ipstatp.com
 DOMAIN-SUFFIX,sgpstatp.com
 
@@ -25,6 +34,7 @@ DOMAIN-SUFFIX,sgpstatp.com
 DOMAIN-SUFFIX,byteoversea.com
 DOMAIN-SUFFIX,byteoversea.net
 DOMAIN-SUFFIX,byteintlapi.com
+DOMAIN-SUFFIX,byteintl.com
 DOMAIN-SUFFIX,bytegecko-i18n.com
 
 # ===== International Image / Video Resources =====
@@ -32,17 +42,20 @@ DOMAIN-SUFFIX,ibyteimg.com
 DOMAIN-SUFFIX,ibytedtos.com
 DOMAIN-SUFFIX,muscdn.com
 
-# ===== TikTok Related Services =====
-DOMAIN-SUFFIX,tiktokmusic.app
-DOMAIN-SUFFIX,ttwebview.com
-DOMAIN-SUFFIX,ttoversea.net
-DOMAIN-SUFFIX,ttoverseaus.net
-
-# ===== TikTok Live CDN =====
+# ===== TikTok Live / Messaging =====
 DOMAIN-SUFFIX,tlivecdn.com
 DOMAIN-SUFFIX,ttlivecdn.com
 
-# ===== Specific CDN Hosts =====
+# ===== TikTok Related Services =====
+DOMAIN-SUFFIX,tiktokmusic.app
+
+# ===== Shared ByteDance Infrastructure =====
+DOMAIN-SUFFIX,snssdk.com
+DOMAIN-SUFFIX,pstatp.com
+DOMAIN-SUFFIX,amemv.com
+
+# ===== TikTok Specific Hosts =====
+DOMAIN,mon.zijieapi.com
 DOMAIN,lf16-effectcdn.byteeffecttos-g.com
 DOMAIN,lf16-pkgcdn.pitaya-clientai.com
 DOMAIN,p16-tiktokcdn-com.akamaized.net
