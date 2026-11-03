@@ -1,0 +1,40 @@
+# NAME: OpenAI
+# DESCRIPTION: OpenAI & ChatGPT 分流规则（API / Platform / iOS / Android / Desktop / Web / Files / Voice / Authentication）
+# AUTHOR: Custom
+# UPDATED: 2026-11-03
+# DOMAIN: 13
+# DOMAIN-SUFFIX: 8
+# TOTAL: 21
+
+# ===== OpenAI / ChatGPT Core =====
+
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,chatgpt.com
+
+# ===== OpenAI Static / Files / Services =====
+
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,oaistatsig.com
+
+# ===== Email / Support Services =====
+
+DOMAIN-SUFFIX,ct.sendgrid.net
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+
+# ===== CDN / Authentication / Infrastructure =====
+
+DOMAIN,cdn.openaimerge.com
+DOMAIN,cdn.workos.com
+DOMAIN,challenges.cloudflare.com
+DOMAIN,forwarder.workos.com
+DOMAIN,frontend-apps-multi-region.workos.com
+DOMAIN,humb.apple.com
+DOMAIN,images.workoscdn.com
+DOMAIN,js.stripe.com
+DOMAIN,o207216.ingest.sentry.io
+DOMAIN,o33249.ingest.sentry.io
+DOMAIN,rum.browser-intake-datadoghq.com
+DOMAIN,setup.workos.com
+DOMAIN,workos.imgix.net
