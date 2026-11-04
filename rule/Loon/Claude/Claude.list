@@ -5,7 +5,6 @@
 # DOMAIN: 7
 # IP-CIDR / IP-CIDR6 / IP-ASN: 3
 # TOTAL: 34
-# 说明：已去除 storage.googleapis.com 等过宽域名；补充 Anthropic 官方 IP 段与 ASN 兜底
 
 # ========== 核心官方域名 ==========
 DOMAIN-SUFFIX,anthropic.com
