@@ -1,10 +1,10 @@
 # NAME: Gemini
-# DESCRIPTION: Gemini 分流规则（AI Studio / DeepMind / NotebookLM / Jules / Flow / Opal / Antigravity / Stitch）
+# DESCRIPTION: Gemini 分流规则（AI Studio / DeepMind / NotebookLM / Jules / Flow / Opal / Antigravity / Stitch / Image Upload）
 # AUTHOR: Custom
-# UPDATED: 2026-11-03
-# DOMAIN: 24
+# UPDATED: 2026-11-04
+# DOMAIN: 39
 # DOMAIN-SUFFIX: 25
-# TOTAL: 49
+# TOTAL: 64
 
 # ===== Gemini =====
 
@@ -46,7 +46,7 @@ DOMAIN,appsgenaiserver-pa.googleapis.com
 DOMAIN-SUFFIX,deepmind.com
 DOMAIN-SUFFIX,deepmind.google
 
-# ===== NotebookLM / Gemini Notebook =====
+# ===== NotebookLM =====
 
 DOMAIN,notebooklm-pa.googleapis.com
 DOMAIN,notebooklm.googleapis.com
@@ -95,3 +95,27 @@ DOMAIN,daily-cloudcode-pa.googleapis.com
 # ===== Stitch =====
 
 DOMAIN-SUFFIX,stitch.withgoogle.com
+
+# ===== Gemini File Upload =====
+
+DOMAIN,content-push.googleapis.com
+
+# ===== Gemini Image / File Resources =====
+
+DOMAIN,lh3.googleusercontent.com
+DOMAIN,lh5.googleusercontent.com
+DOMAIN,lh3.google.com
+
+# ===== Gemini Network Dependencies =====
+
+DOMAIN,www.googleapis.com
+DOMAIN,apis.google.com
+DOMAIN,ssl.gstatic.com
+DOMAIN,www.gstatic.com
+DOMAIN,fonts.googleapis.com
+DOMAIN,fonts.gstatic.com
+DOMAIN,jnn-pa.googleapis.com
+DOMAIN,waa-pa.clients6.google.com
+DOMAIN,csp.withgoogle.com
+DOMAIN,content-autofill.googleapis.com
+DOMAIN,optimizationguide-pa.googleapis.com
