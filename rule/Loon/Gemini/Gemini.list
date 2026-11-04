@@ -1,121 +1,76 @@
 # NAME: Gemini
-# DESCRIPTION: Gemini 分流规则（AI Studio / DeepMind / NotebookLM / Jules / Flow / Opal / Antigravity / Stitch / Image Upload）
-# AUTHOR: Custom
+# DESCRIPTION: Gemini 分流规则（AI Studio / DeepMind / NotebookLM / Jules / Flow / Opal / Antigravity / Stitch 等）
 # UPDATED: 2026-11-04
-# DOMAIN: 39
-# DOMAIN-SUFFIX: 25
-# TOTAL: 64
+# DOMAIN: 22
+# DOMAIN-SUFFIX: 32
+# TOTAL: 54
 
-# ===== Gemini =====
-
+# ========== Gemini 主站 & 前端 ==========
 DOMAIN,geminiweb-pa.clients.google.com
 DOMAIN,geminiweb-pa.clients6.google.com
-
-DOMAIN-SUFFIX,bard.google.com
 DOMAIN-SUFFIX,gemini.google
 DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,gemini.gstatic.com
+DOMAIN-SUFFIX,bard.google.com
 
-# ===== Google Generative Language API =====
-
-DOMAIN,geller-pa.googleapis.com
-DOMAIN,generativelanguage.googleapis.com
-DOMAIN,proactivebackend-pa.googleapis.com
-DOMAIN,robinfrontend-pa.googleapis.com
-
-# ===== Google AI Studio =====
-
+# ========== AI Studio / MakerSuite / Generative AI ==========
 DOMAIN,ai.google.dev
 DOMAIN,alkalicore-pa.clients6.google.com
 DOMAIN,alkalimakersuite-pa.clients6.google.com
 DOMAIN,webchannel-alkalimakersuite-pa.clients6.google.com
-
 DOMAIN-SUFFIX,ai.studio
 DOMAIN-SUFFIX,aistudio.google.com
 DOMAIN-SUFFIX,makersuite.google.com
 DOMAIN-SUFFIX,generativeai.google
 
-# ===== Gemini in Google Workspace =====
-
+# ========== Gemini in Google Workspace ==========
 DOMAIN,appsgenaiserver-pa.clients.google.com
 DOMAIN,appsgenaiserver-pa.clients6.google.com
 DOMAIN,appsgenaiserver-pa.googleapis.com
 
-# ===== Google DeepMind =====
-
-DOMAIN-SUFFIX,deepmind.com
-DOMAIN-SUFFIX,deepmind.google
-
-# ===== NotebookLM =====
-
+# ========== NotebookLM / Gemini Notebook ==========
 DOMAIN,notebooklm-pa.googleapis.com
 DOMAIN,notebooklm.googleapis.com
 DOMAIN,labstailwind.pa.googleapis.com
-
 DOMAIN-SUFFIX,notebook.google
 DOMAIN-SUFFIX,notebook.google.com
 DOMAIN-SUFFIX,notebooklm.google
 DOMAIN-SUFFIX,notebooklm.google.com
 
-# ===== Google Labs / Flow =====
+# ========== DeepMind ==========
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
 
-DOMAIN,aisandbox-pa.googleapis.com
-
-DOMAIN-SUFFIX,labs.google
-DOMAIN-SUFFIX,labs.google.com
-DOMAIN-SUFFIX,flow.google
-DOMAIN-SUFFIX,flow.google.com
-
-# ===== Jules =====
-
-DOMAIN-SUFFIX,jules.google
-DOMAIN-SUFFIX,jules.google.com
-
-# ===== Opal =====
-
-DOMAIN-SUFFIX,opal.google
-DOMAIN-SUFFIX,opal.google.com
-
-# ===== Antigravity =====
-
-DOMAIN,antigravity-pa.googleapis.com
-DOMAIN,antigravity.googleapis.com
-
-DOMAIN-SUFFIX,antigravity.google
-DOMAIN-SUFFIX,antigravity-unleash.goog
-
-# ===== Google AI Developer Tools =====
-
-DOMAIN,aicode.googleapis.com
+# ========== Generative Language API 及相关后端 ==========
+DOMAIN,geller-pa.googleapis.com
+DOMAIN,generativelanguage.googleapis.com
+DOMAIN,proactivebackend-pa.googleapis.com
+DOMAIN,robinfrontend-pa.googleapis.com
 DOMAIN,aida.googleapis.com
+DOMAIN,aisandbox-pa.googleapis.com
+DOMAIN,aicode.googleapis.com
+
+# ========== Cloud Code / Code Assist ==========
 DOMAIN,cloudaicompanion.googleapis.com
 DOMAIN,cloudcode-pa.googleapis.com
 DOMAIN,daily-cloudcode-pa.googleapis.com
 
-# ===== Stitch =====
+# ========== Antigravity ==========
+DOMAIN,antigravity-pa.googleapis.com
+DOMAIN,antigravity.googleapis.com
+DOMAIN-SUFFIX,antigravity.google
+DOMAIN-SUFFIX,antigravity-unleash.goog
 
+# ========== Jules / Labs / Flow / Opal ==========
+DOMAIN-SUFFIX,jules.google
+DOMAIN-SUFFIX,jules.google.com
+DOMAIN-SUFFIX,labs.google
+DOMAIN-SUFFIX,labs.google.com
+DOMAIN-SUFFIX,flow.google
+DOMAIN-SUFFIX,flow.google.com
+DOMAIN-SUFFIX,opal.google
+DOMAIN-SUFFIX,opal.google.com
+
+# ========== Stitch & 文件上传 ==========
 DOMAIN-SUFFIX,stitch.withgoogle.com
-
-# ===== Gemini File Upload =====
-
 DOMAIN,content-push.googleapis.com
-
-# ===== Gemini Image / File Resources =====
-
-DOMAIN,lh3.googleusercontent.com
-DOMAIN,lh5.googleusercontent.com
-DOMAIN,lh3.google.com
-
-# ===== Gemini Network Dependencies =====
-
-DOMAIN,www.googleapis.com
-DOMAIN,apis.google.com
-DOMAIN,ssl.gstatic.com
-DOMAIN,www.gstatic.com
-DOMAIN,fonts.googleapis.com
-DOMAIN,fonts.gstatic.com
-DOMAIN,jnn-pa.googleapis.com
-DOMAIN,waa-pa.clients6.google.com
-DOMAIN,csp.withgoogle.com
-DOMAIN,content-autofill.googleapis.com
-DOMAIN,optimizationguide-pa.googleapis.com
