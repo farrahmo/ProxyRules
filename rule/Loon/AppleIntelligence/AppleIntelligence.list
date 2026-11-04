@@ -1,22 +1,26 @@
 # NAME: Apple Intelligence 分流规则
-# DESCRIPTION: Apple Intelligence & Private Cloud Compute & Extensions & ChatGPT integration
-# UPDATED: 2026-09-15
+# DESCRIPTION: Apple Intelligence & Private Cloud Compute & Extensions & ChatGPT integration & Photos AI (Clean Up / Extend / Reframe)
+# UPDATED: 2026-11-04
+# DOMAIN-SUFFIX: 11
+# TOTAL: 11
 
-# ===== Private Cloud Compute =====
+# ===== Private Cloud Compute (核心，必须代理) =====
 DOMAIN-SUFFIX,apple-relay.cloudflare.com
 DOMAIN-SUFFIX,apple-relay.fastly-edge.com
 DOMAIN-SUFFIX,cp4.cloudflare.com
-
-# ===== Apple Intelligence Extensions =====
 DOMAIN-SUFFIX,apple-relay.apple.com
 
 # ===== Apple Intelligence Relay / CDN =====
 DOMAIN-SUFFIX,apple-relay.akamaized.net
 DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net
 
-# ===== Apple Intelligence / iCloud Shared Dependencies =====
+# ===== iCloud Shared Dependencies（AI 会用到） =====
 DOMAIN-SUFFIX,gateway.icloud.com
 DOMAIN-SUFFIX,mask-api.icloud.com
 
-# ===== Apple Intelligence / ChatGPT Integration =====
+# ===== ChatGPT / 资源 / 扩展 =====
 DOMAIN-SUFFIX,aapps.mzstatic.com
+DOMAIN-SUFFIX,apps.mzstatic.com
+
+# ===== 额外补充（社区实测对 Photos AI / Siri AI 有帮助） =====
+DOMAIN-SUFFIX,api-siri-prod.apple.com
