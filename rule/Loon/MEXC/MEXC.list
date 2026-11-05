@@ -1,38 +1,33 @@
 # NAME: MEXC
-# DESCRIPTION: MEXC 分流规则（全球站、区域站、API、WebSocket、静态资源与官方生态）
+# DESCRIPTION: MEXC 分流规则（全球站、区域站、动态业务域名、API、WebSocket、风控及官方生态）
 # UPDATED: 2026-11-05
-# TOTAL: 22
+# DOMAIN: 1
+# DOMAIN-SUFFIX: 18
+# TOTAL: 19
 
-# ========== 核心主域名 ==========
+# ========== 核心主站及官方域名 ==========
 DOMAIN-SUFFIX,mexc.com
 DOMAIN-SUFFIX,mexc.co
-DOMAIN-SUFFIX,mexc.fm
-DOMAIN-SUFFIX,mexc.in
 DOMAIN-SUFFIX,mexc.io
-DOMAIN-SUFFIX,mxc.com
-
-# ========== 邮件 / 营销 / 区域 ==========
+DOMAIN-SUFFIX,mexc.fm
 DOMAIN-SUFFIX,mexc.link
 DOMAIN-SUFFIX,mexc.cg
 DOMAIN-SUFFIX,mexc.ci
 DOMAIN-SUFFIX,mexc.sg
-
-# ========== API & WebSocket（交易核心） ==========
-DOMAIN-SUFFIX,api.mexc.com
-DOMAIN-SUFFIX,wbs-api.mexc.com
-DOMAIN-SUFFIX,contract.mexc.com
-DOMAIN-SUFFIX,wbs.mexc.com
-
-# ========== 官方文档 ==========
 DOMAIN-SUFFIX,mexcdevelop.github.io
 
-# ========== 静态资源 / CDN（非常关键） ==========
-DOMAIN-SUFFIX,mocortech.com
-DOMAIN-SUFFIX,static.mocortech.com
-DOMAIN-SUFFIX,public.mocortech.com
-DOMAIN-SUFFIX,download.mocortech.com
+# ========== MEXC 动态主站及备用域名 ==========
+DOMAIN-SUFFIX,greentreeone.com
+DOMAIN-SUFFIX,coldbookfly.ru
+DOMAIN-SUFFIX,flytogarden.com
+DOMAIN-SUFFIX,hotbookzone.com
+DOMAIN-SUFFIX,payapptoday.com
 
-# ========== 补充的子域名 ==========
-DOMAIN-SUFFIX,www.mexc.com
-DOMAIN-SUFFIX,app.mexc.com
-DOMAIN-SUFFIX,futures.mexc.com
+# ========== 静态资源及下载服务 ==========
+DOMAIN-SUFFIX,mocortech.com
+
+# ========== App 配置及辅助服务 ==========
+DOMAIN,s3-app-release.s3.ap-northeast-1.amazonaws.com
+DOMAIN-SUFFIX,dgshen.com
+DOMAIN-SUFFIX,turingfraud.net
+DOMAIN-SUFFIX,gotoda.co
