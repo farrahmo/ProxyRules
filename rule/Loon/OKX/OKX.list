@@ -1,37 +1,31 @@
 # NAME: OKX
 # DESCRIPTION: OKX 分流规则（全球站、区域站、App、API、WebSocket、DNS、Web3 与官方生态）
-# UPDATED: 2026-11-05
-# DOMAIN-SUFFIX: 20
-# TOTAL: 20
+# UPDATED: 2026-11-06
+# DOMAIN-SUFFIX: 17
+# TOTAL: 17
 
-# OKX 核心服务
+# ========== OKX 核心服务 ==========
 DOMAIN-SUFFIX,okx.com
 DOMAIN-SUFFIX,okx.ac
 DOMAIN-SUFFIX,okx.cab
 DOMAIN-SUFFIX,okex.com
 
-# OKX 区域站（重要，App/Web 可能跳转）
-DOMAIN-SUFFIX,eea.okx.com
-DOMAIN-SUFFIX,us.okx.com
-DOMAIN-SUFFIX,my.okx.com
-DOMAIN-SUFFIX,app.okx.com
-DOMAIN-SUFFIX,tr.okx.com
-
-# OKX DNS 基础设施（强烈建议保留）
+# ========== OKX DNS 基础设施 ==========
 DOMAIN-SUFFIX,okx-dns.com
 DOMAIN-SUFFIX,okx-dns1.com
 DOMAIN-SUFFIX,okx-dns2.com
 
-# Web3 / Wallet
-DOMAIN-SUFFIX,web3.okx.com
+# ========== OKX DNS 路由服务（抓包新增） ==========
+DOMAIN-SUFFIX,gnmobile1.com
+DOMAIN-SUFFIX,gnmobile2.com
 
-# 关联生态
+# ========== Web3 / Wallet ==========
 DOMAIN-SUFFIX,oklink.com
 DOMAIN-SUFFIX,okg.com
 DOMAIN-SUFFIX,okcoin.com
 DOMAIN-SUFFIX,xlayer.tech
 
-# 社区补充（App 相关备用域名）
+# ========== App 相关备用域名 ==========
 DOMAIN-SUFFIX,mokexapp.org
 DOMAIN-SUFFIX,hjpuv.com
 DOMAIN-SUFFIX,dwsrdo.com
