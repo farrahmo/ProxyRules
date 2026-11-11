@@ -1,26 +1,28 @@
 # NAME: Apple Intelligence 分流规则
-# DESCRIPTION: Apple Intelligence & Private Cloud Compute & Extensions & ChatGPT integration & Photos AI (Clean Up / Extend / Reframe)
-# UPDATED: 2026-11-04
-# DOMAIN-SUFFIX: 11
-# TOTAL: 11
+# DESCRIPTION: Private Cloud Compute / Photos AI (消除/扩图/构图) / Extensions
+# UPDATED: 2026-11-12
+# DOMAIN:7
+# DOMAIN-SUFFIX: 9
+# TOTAL: 16
 
-# ===== Private Cloud Compute (核心，必须代理) =====
+# ===== Private Cloud Compute 核心（必须代理，且需要 UDP）=====
+DOMAIN,apple-relay.apple.com
+DOMAIN,cp4.cloudflare.com
 DOMAIN-SUFFIX,apple-relay.cloudflare.com
 DOMAIN-SUFFIX,apple-relay.fastly-edge.com
-DOMAIN-SUFFIX,cp4.cloudflare.com
-DOMAIN-SUFFIX,apple-relay.apple.com
-
-# ===== Apple Intelligence Relay / CDN =====
-DOMAIN-SUFFIX,apple-relay.akamaized.net
 DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net
+DOMAIN-SUFFIX,apple-relay.akamaized.net
 
-# ===== iCloud Shared Dependencies（AI 会用到） =====
+# ===== iCloud Private Relay / Mask 相关（AI 会依赖）=====
+DOMAIN,mask-api.icloud.com
+DOMAIN,mask-api.fe.apple-dns.net
+DOMAIN,mask-api.fe2.apple-dns.net
+DOMAIN,mask.icloud.com
+DOMAIN,mask-h2.icloud.com
+DOMAIN-SUFFIX,mask.apple-dns.net
+DOMAIN-SUFFIX,mask.icloud.com
+
+# ===== 网关与资源 =====
 DOMAIN-SUFFIX,gateway.icloud.com
-DOMAIN-SUFFIX,mask-api.icloud.com
-
-# ===== ChatGPT / 资源 / 扩展 =====
-DOMAIN-SUFFIX,aapps.mzstatic.com
 DOMAIN-SUFFIX,apps.mzstatic.com
-
-# ===== 额外补充（社区实测对 Photos AI / Siri AI 有帮助） =====
-DOMAIN-SUFFIX,api-siri-prod.apple.com
+DOMAIN-SUFFIX,aapps.mzstatic.com
