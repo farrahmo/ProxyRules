@@ -1,6 +1,9 @@
-# NAME: Siri 分流规则
-# DESCRIPTION: Apple Siri / Siri Suggestions / Search / 相关后端
+# NAME: Siri
+# DESCRIPTION: Siri 分流规则（Apple Siri / Siri Suggestions / Search / 相关后端）
 # UPDATED: 2026-11-12
+# DOMAIN:4
+# DOMAIN-SUFFIX: 5
+# TOTAL: 9
 
 # ===== Siri 核心 =====
 DOMAIN,guzzoni.apple.com
