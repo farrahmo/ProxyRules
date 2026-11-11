@@ -1,21 +1,18 @@
 # NAME: Siri 分流规则
-# DESCRIPTION: Apple Siri & Siri Suggestions & Search & Photos AI 相关
-# UPDATED: 2026-11-04
-# DOMAIN-SUFFIX: 8
-# TOTAL: 8
+# DESCRIPTION: Apple Siri / Siri Suggestions / Search / 相关后端
+# UPDATED: 2026-11-12
 
-# ===== Siri Core =====
+# ===== Siri 核心 =====
+DOMAIN,guzzoni.apple.com
 DOMAIN-SUFFIX,guzzoni.apple.com
 DOMAIN-SUFFIX,smoot.apple.com
+DOMAIN,guzzoni-apple-com.v.aaplimg.com
 
-# ===== Siri Legacy / Compatibility =====
-DOMAIN-SUFFIX,guzzoni.smoot.apple.com
+# ===== Siri 兼容 / 旧接口 =====
 DOMAIN-SUFFIX,siri.apple.com
-DOMAIN-SUFFIX,probe.siri.apple.com
+DOMAIN,probe.siri.apple.com
+DOMAIN,api-siri-prod.apple.com
 
-# ===== Siri Region / Suggestions / Location =====
+# ===== 定位 / 建议相关（Siri 会调用）=====
 DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
-DOMAIN-SUFFIX,guzzoni-apple-com.v.aaplimg.com
-
-# ===== 额外补充 =====
-DOMAIN-SUFFIX,api-siri-prod.apple.com
+DOMAIN-SUFFIX,ls.apple.com
