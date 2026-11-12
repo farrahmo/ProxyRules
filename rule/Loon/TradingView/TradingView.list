@@ -1,33 +1,9 @@
+# TradingView/TradingView.list
 # NAME: TradingView
 # DESCRIPTION: TradingView 分流规则
 # UPDATED: 2026-11-11
-# DOMAIN-SUFFIX: 28
-# TOTAL: 28
+# DOMAIN-SUFFIX: 3
+# TOTAL: 3
 DOMAIN-SUFFIX,tradingview.com
 DOMAIN-SUFFIX,tradingview-widget.com
 DOMAIN-SUFFIX,tradingview-gateway.com
-DOMAIN-SUFFIX,static.tradingview.com
-DOMAIN-SUFFIX,s.tradingview.com
-DOMAIN-SUFFIX,s3.tradingview.com
-DOMAIN-SUFFIX,s3-symbol-logo.tradingview.com
-DOMAIN-SUFFIX,scanner.tradingview.com
-DOMAIN-SUFFIX,data.tradingview.com
-DOMAIN-SUFFIX,snowplow-pixel.tradingview.com
-DOMAIN-SUFFIX,news-mediator.tradingview.com
-DOMAIN-SUFFIX,economic-calendar.tradingview.com
-DOMAIN-SUFFIX,pushstream.tradingview.com
-DOMAIN-SUFFIX,saveload.tradingview.com
-DOMAIN-SUFFIX,demo-feed-data.tradingview.com
-DOMAIN-SUFFIX,demo-feed.tradingview.com
-DOMAIN-SUFFIX,charting-library.tradingview-widget.com
-DOMAIN-SUFFIX,trading-terminal.tradingview-widget.com
-DOMAIN-SUFFIX,symbol-search.tradingview.com
-DOMAIN-SUFFIX,widgetdata.tradingview.com
-DOMAIN-SUFFIX,status.tradingview.com
-DOMAIN-SUFFIX,blog.tradingview.com
-DOMAIN-SUFFIX,auth.tradingview.com
-DOMAIN-SUFFIX,payments.tradingview.com
-DOMAIN-SUFFIX,portfolio.tradingview.com
-DOMAIN-SUFFIX,mcp.tradingview.com
-DOMAIN-SUFFIX,public-platform.tradingview.com
-DOMAIN-SUFFIX,screener-storage.tradingview.com
