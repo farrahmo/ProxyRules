@@ -1,9 +1,29 @@
-# TradingView/TradingView.list
+
 # NAME: TradingView
 # DESCRIPTION: TradingView 分流规则
-# UPDATED: 2026-11-11
-# DOMAIN-SUFFIX: 3
-# TOTAL: 3
+# UPDATED: 2026-11-13
+# DOMAIN: 0
+# DOMAIN-SUFFIX: 20
+# TOTAL: 20
+
 DOMAIN-SUFFIX,tradingview.com
 DOMAIN-SUFFIX,tradingview-widget.com
 DOMAIN-SUFFIX,tradingview-gateway.com
+
+DOMAIN-SUFFIX,cn.tradingview.com
+DOMAIN-SUFFIX,data.tradingview.com
+DOMAIN-SUFFIX,pushstream.tradingview.com
+DOMAIN-SUFFIX,scanner.tradingview.com
+DOMAIN-SUFFIX,charts-storage.tradingview.com
+DOMAIN-SUFFIX,mobile-data.tradingview.com
+DOMAIN-SUFFIX,mobile-sp.tradingview.com
+DOMAIN-SUFFIX,symbol-search.tradingview.com
+DOMAIN-SUFFIX,quotes.tradingview.com
+DOMAIN-SUFFIX,pricealerts.tradingview.com
+DOMAIN-SUFFIX,notifications.tradingview.com
+DOMAIN-SUFFIX,economic-calendar.tradingview.com
+DOMAIN-SUFFIX,news-mediator.tradingview.com
+DOMAIN-SUFFIX,s3-symbol-logo.tradingview.com
+DOMAIN-SUFFIX,static.tradingview.com
+DOMAIN-SUFFIX,s3.tradingview.com
+DOMAIN-SUFFIX,snowplow-pixel.tradingview.com
