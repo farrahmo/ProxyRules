@@ -1,24 +1,39 @@
-# NAME: CryptoMarkets 分流规则
-# DESCRIPTION: CryptoMarkets
-# UPDATED: 2026-08-28
+
+# NAME: CryptoMarkets
+# DESCRIPTION: CryptoMarkets 分流规则（行情、衍生品、链上数据、DeFi、DEX 与市场资讯）
+# UPDATED: 2026-11-14
+# DOMAIN: 0
+# DOMAIN-SUFFIX: 12
+# TOTAL: 12
 
 # CoinMarketCap
 DOMAIN-SUFFIX,coinmarketcap.com
-DOMAIN-SUFFIX,api.coinmarketcap.com
-DOMAIN-SUFFIX,dapi.coinmarketcap.com
-DOMAIN-SUFFIX,s2.coinmarketcap.com
-DOMAIN-SUFFIX,s3.coinmarketcap.com
-DOMAIN-SUFFIX,account.coinmarketcap.com
-DOMAIN-SUFFIX,academy-public.coinmarketcap.com
 DOMAIN-SUFFIX,coinmarketcap.zendesk.com
 
 # CoinGecko
 DOMAIN-SUFFIX,coingecko.com
-DOMAIN-SUFFIX,static.coingecko.com
-DOMAIN-SUFFIX,assets.coingecko.com
-DOMAIN-SUFFIX,support.coingecko.com
-DOMAIN-SUFFIX,partner.coingecko.com
-DOMAIN-SUFFIX,landing.coingecko.com
-DOMAIN-SUFFIX,ads.coingecko.com
 DOMAIN-SUFFIX,geckoterminal.com
-DOMAIN-SUFFIX,about.geckoterminal.com
+
+# CoinGlass - 衍生品与合约数据
+DOMAIN-SUFFIX,coinglass.com
+
+# CryptoQuant - 链上与资金流数据
+DOMAIN-SUFFIX,cryptoquant.com
+
+# Glassnode - 链上与市场周期分析
+DOMAIN-SUFFIX,glassnode.com
+
+# DeFiLlama - DeFi 与链上生态数据
+DOMAIN-SUFFIX,defillama.com
+
+# DEX Screener - DEX 行情与新币数据
+DOMAIN-SUFFIX,dexscreener.com
+
+# CoinPaprika - 第三方行情聚合
+DOMAIN-SUFFIX,coinpaprika.com
+
+# CryptoPanic - 加密市场新闻与情绪
+DOMAIN-SUFFIX,cryptopanic.com
+
+# CoinDesk - 加密市场资讯
+DOMAIN-SUFFIX,coindesk.com
