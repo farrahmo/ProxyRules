@@ -1,0 +1,17 @@
+# NAME: CharlesSchwab
+# DESCRIPTION: The Charles Schwab Corporation / 嘉信理财 分流规则
+# UPDATED: 2026-11-15
+# DOMAIN-SUFFIX: 12
+# TOTAL: 12
+DOMAIN-SUFFIX,schwab.com
+DOMAIN-SUFFIX,schwabcdn.com
+DOMAIN-SUFFIX,aboutschwab.com
+DOMAIN-SUFFIX,schwabapi.com
+DOMAIN-SUFFIX,thinkorswim.com
+DOMAIN-SUFFIX,schwaballiance.com
+DOMAIN-SUFFIX,schwab.com.cn
+DOMAIN-SUFFIX,schwab.com.hk
+DOMAIN-SUFFIX,schwab.co.uk
+DOMAIN-SUFFIX,schwabinstitutional.com
+DOMAIN-SUFFIX,streetsmartcentral.com
+DOMAIN-SUFFIX,schwabbank.com
