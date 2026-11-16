@@ -1,34 +1,21 @@
-Gemini/Gemini.list
 # NAME: Gemini
-# DESCRIPTION: Gemini 分流规则（AI Studio / DeepMind / NotebookLM）
-# UPDATED: 2026-09-02
-# DOMAIN-SUFFIX: 41
-# TOTAL: 41
+# DESCRIPTION: Gemini 分流规则（含 AI Studio / DeepMind / NotebookLM）
+# UPDATED: 2026-11-17
+# DOMAIN-SUFFIX: 33
+# TOTAL: 33
+
+# --- 核心产品入口 ---
 DOMAIN-SUFFIX,ai.google.dev
 DOMAIN-SUFFIX,ai.studio
-DOMAIN-SUFFIX,aicode.googleapis.com
-DOMAIN-SUFFIX,aida.googleapis.com
-DOMAIN-SUFFIX,aisandbox-pa.googleapis.com
 DOMAIN-SUFFIX,aistudio.google.com
-DOMAIN-SUFFIX,alkalicore-pa.clients6.google.com
-DOMAIN-SUFFIX,alkalimakersuite-pa.clients6.google.com
-DOMAIN-SUFFIX,antigravity-pa.googleapis.com
-DOMAIN-SUFFIX,antigravity.googleapis.com
-DOMAIN-SUFFIX,antigravity.google
-DOMAIN-SUFFIX,antigravity-unleash.goog
 DOMAIN-SUFFIX,bard.google.com
-DOMAIN-SUFFIX,cloudaicompanion.googleapis.com
-DOMAIN-SUFFIX,cloudcode-pa.googleapis.com
-DOMAIN-SUFFIX,daily-cloudcode-pa.googleapis.com
 DOMAIN-SUFFIX,deepmind.com
 DOMAIN-SUFFIX,deepmind.google
 DOMAIN-SUFFIX,flow.google
-DOMAIN-SUFFIX,geller-pa.googleapis.com
 DOMAIN-SUFFIX,gemini.google
 DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,gemini.gstatic.com
 DOMAIN-SUFFIX,generativeai.google
-DOMAIN-SUFFIX,generativelanguage.googleapis.com
 DOMAIN-SUFFIX,jules.google
 DOMAIN-SUFFIX,jules.google.com
 DOMAIN-SUFFIX,labs.google
@@ -37,11 +24,24 @@ DOMAIN-SUFFIX,makersuite.google.com
 DOMAIN-SUFFIX,notebook.google.com
 DOMAIN-SUFFIX,notebooklm.google
 DOMAIN-SUFFIX,notebooklm.google.com
-DOMAIN-SUFFIX,notebooklm-pa.googleapis.com
-DOMAIN-SUFFIX,notebooklm.googleapis.com
 DOMAIN-SUFFIX,opal.google
 DOMAIN-SUFFIX,opal.google.com
+DOMAIN-SUFFIX,stitch.withgoogle.com
+
+# --- 核心 API 与移动端多媒体上传接口 ---
+DOMAIN-SUFFIX,aicode.googleapis.com
+DOMAIN-SUFFIX,aida.googleapis.com
+DOMAIN-SUFFIX,aisandbox-pa.googleapis.com
+DOMAIN-SUFFIX,alkalicore-pa.clients6.google.com
+DOMAIN-SUFFIX,alkalimakersuite-pa.clients6.google.com
+DOMAIN-SUFFIX,cloudaicompanion.googleapis.com
+DOMAIN-SUFFIX,cloudcode-pa.googleapis.com
+DOMAIN-SUFFIX,geller-pa.googleapis.com
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,notebooklm-pa.googleapis.com
+DOMAIN-SUFFIX,notebooklm.googleapis.com
 DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
 DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com
-DOMAIN-SUFFIX,stitch.withgoogle.com
-DOMAIN-SUFFIX,webchannel-alkalimakersuite-pa.clients6.google.com
+
+# --- 针对移动端上传易遗漏接口的兜底补充 ---
+DOMAIN-SUFFIX,clients6.google.com
