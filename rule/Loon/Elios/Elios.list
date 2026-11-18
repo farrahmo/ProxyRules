@@ -1,0 +1,8 @@
+# NAME: Elios
+# DESCRIPTION: Elios 分流规则（数字美元钱包、支付卡及 Web3 金融应用）
+# UPDATED: 2026-11-19
+# DOMAIN: 0
+# DOMAIN-SUFFIX: 1
+# TOTAL: 1
+
+DOMAIN-SUFFIX,eliospay.com
