@@ -1,9 +1,9 @@
 # NAME: OKX
 # DESCRIPTION: OKX 分流规则（全球站、区域站、App、API、WebSocket、DNS、Web3 与官方生态）
 # UPDATED: 2026-11-06
-# DOMAIN-SUFFIX: 17
+# DOMAIN-SUFFIX: 18
 # DOMAIN-KEYWORD: 1
-# TOTAL: 18
+# TOTAL: 19
 
 # ========== OKX 核心服务 ==========
 DOMAIN-SUFFIX,okx.com
@@ -31,4 +31,6 @@ DOMAIN-SUFFIX,mokexapp.org
 DOMAIN-SUFFIX,hjpuv.com
 DOMAIN-SUFFIX,dwsrdo.com
 DOMAIN-SUFFIX,qqhrss.com
+
+DOMAIN-SUFFIX,okx.com.cdn
 DOMAIN-KEYWORD,okx
