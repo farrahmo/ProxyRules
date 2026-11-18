@@ -1,0 +1,7 @@
+# NAME: CloudflareVerification
+# DESCRIPTION: Cloudflare 人机验证专用
+# UPDATED: 2026-11-18
+# DOMAIN-SUFFIX: 1
+# TOTAL: 1
+
+DOMAIN-SUFFIX,challenges.cloudflare.com
