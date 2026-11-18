@@ -1,20 +1,27 @@
 # NAME: Grok
-# DESCRIPTION: Grok 分流规则
-# UPDATED: 2026-11-06
-# DOMAIN-SUFFIX: 9
-# TOTAL: 9
+# DESCRIPTION: Grok / xAI 分流规则
+# UPDATED: 2026-11-18
+# DOMAIN-SUFFIX: 10
+# DOMAIN: 5
+# TOTAL: 15
 
-# Grok / xAI 核心服务
+# ========== 核心服务 ==========
 DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,grok.x.com
 DOMAIN-SUFFIX,grokipedia.com
 DOMAIN-SUFFIX,grok.me
+DOMAIN-SUFFIX,grokusercontent.com
+DOMAIN-SUFFIX,grok-sandbox.com
 
-# 静态资源及相关服务
+# ========== 静态资源 / CDN ==========
+DOMAIN-SUFFIX,cdn.grok.com
+DOMAIN,assets.grok.com
+DOMAIN,assets.x.ai
 DOMAIN-SUFFIX,featureassets.org
 DOMAIN-SUFFIX,xai.chronosphere.io
-DOMAIN-SUFFIX,grokusercontent.com
 
-# Cloudflare 人机验证
-DOMAIN-SUFFIX,challenges.cloudflare.com
+# ========== 登录 / 认证==========
+DOMAIN,accounts.x.ai
+DOMAIN,auth.x.ai
+DOMAIN,auth.grok.com
