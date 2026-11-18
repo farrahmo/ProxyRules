@@ -1,8 +1,8 @@
 # NAME: Gemini
 # DESCRIPTION: Gemini 分流规则（含 AI Studio / DeepMind / NotebookLM）
 # UPDATED: 2026-11-17
-# DOMAIN-SUFFIX: 33
-# TOTAL: 33
+# DOMAIN-SUFFIX: 36
+# TOTAL: 36
 
 # --- 核心产品入口 ---
 DOMAIN-SUFFIX,ai.google.dev
